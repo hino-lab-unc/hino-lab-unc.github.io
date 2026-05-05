@@ -1,0 +1,44 @@
+body {
+    background-image: url('files/images/bg.jpeg');
+    background-size: cover;
+}
+
+.content, .card, .navbar a, 
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+    color: #fff;
+}
+
+.nav-footer, .navbar, .quarto-grid-item, .card {
+    background-color: transparent;
+}
+
+.quarto-grid-item, .card {
+    border: none;
+    border-color: #fff;
+    border-radius: 0.5em;
+}
+
+.content {
+    padding-top: 40% !important;
+}
+
+h1, h3, .more a {
+    font-weight: 100;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body, .more a, .nav-footer, .nav-footer a {
+    color: #bbb;
+}
+
+.more a {
+    padding-right: 1em;
+    font-size: 1.45rem;
+}
+
+.navbar {
+    display: none;
+}

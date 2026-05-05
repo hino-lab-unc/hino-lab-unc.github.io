@@ -65,7 +65,7 @@ listing:   # Comment the listing section and delete corresponding lines in the i
       - "date desc"
       - "title asc"
 
-css: index.scss
+css: index.css
 ---
 
 :::{#hero-heading}
