@@ -1,8 +1,12 @@
-    - path: https://drganghe.github.io/quarto-academic-website-template
-      image: "/files/profiles/profile7.JPG"
-      title: "PI Name"
-      lastname: "Website"
+    - title: "Miyuki Hino"
+      image: "/files/profiles/hino.webp"
+      # path: https://www.miyukihino.com/
+      lastname: "Hino"
 #      author: 
-      subtitle: "PI"
+      subtitle: "Principal Investigator"
 #      date: "2024-03-12"
-      categories: [Director] 
+      categories: [PI]
+      description: |
+            I am an environmental social scientist working on measuring and managing the impacts of climate change. My research examines the linkages between natural hazards, governance, and public policy to drive effective and equitable adaptation to climate change. Currently, I am an Associate Professor in the <a href="https://planning.unc.edu/">Department of City and Regional Planning</a> and an Adjunct Associate Professor in the <a href="https://e3p.unc.edu/">Environment, Ecology &amp; Energy Program</a> at the University of North Carolina at Chapel Hill.
+
+            I received my Ph.D. from Stanford University's <a href="https://pangea.stanford.edu/eiper/phd" target="_blank">Emmett Interdisciplinary Program in Environment and Resources (E-IPER)</a> and a B.S. in Chemical Engineering from Yale University. Before Stanford, I spent several years supporting evidence-based climate change adaptation and mitigation decision-making, most recently at the <a href="http://newclimateeconomy.net/" target="_blank">New Climate Economy</a> and <a href="https://www.icf.com/work/climate" target="_blank">ICF International</a>.

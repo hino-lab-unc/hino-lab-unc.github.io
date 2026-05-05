@@ -1,0 +1,12 @@
+---
+title: "Farrah Hasan"
+lastname: "Hasan"
+subtitle: "PhD Student"
+description: |
+  Lorem ipsum.
+categories: [PhD Student]
+image: "hasan.jpg"
+started: "2024"
+ended: "2029"
+---
+

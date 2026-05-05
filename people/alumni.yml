@@ -1,0 +1,38 @@
+    - path: https://www.linkedin.com/in/julian-plough-b3010284/
+      image: "/files/profiles/plough.jpg"
+      title: "Dr. Julian Plough"
+      lastname: "Plough"
+      subtitle: |
+        Independent
+
+        Postdoc 2024-2025
+      categories: [Postdoc] 
+      started: "2024"
+      ended: "2025"
+
+    - path: https://climategeobest.wordpress.com/
+      image: "/files/profiles/jung.png"
+      title: "Dr. Jihoon Jung"
+      lastname: "Jung"
+      subtitle: |
+        Assistant Professsor, <br>
+        Geography and the Environment, <br>
+        University of North Texas
+
+        Postdoc 2022-2023
+      categories: [Postdoc] 
+      started: "2022"
+      ended: "2023"
+
+    - path: https://helenamgarcia.com/
+      image: "/files/profiles/garcia.jpg"
+      title: "Dr. Helena Garcia"
+      lastname: "Garcia"
+      subtitle: |
+        Postdoc, <br>
+        Dartmouth University
+
+        PhD Student 2021-2026
+      categories: [Phd Student] 
+      started: "2021"
+      ended: "2026"

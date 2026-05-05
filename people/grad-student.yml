@@ -1,0 +1,13 @@
+    - path: https://jpcollins.me/
+      image: "files/profiles/collins.jpg"
+      title: "James Collins"
+      lastname: "Collins"
+#      author: 
+      subtitle: "PhD Student"
+#      date: "2024-03-12"
+      categories: [PhD Student] 
+      started: "2023"
+      ended: "2028"
+      description: |
+       James is in the Department of City and Regional Planning. His research engages with coastal communities in North Carolina experiencing and responding to flooding. He investigates how social, economic, and housing factors influence vulnerability and resilience, with projects on chronic coastal flooding, H-2A farmworker housing, and the long-term impacts of residential floodplain buyouts. His work aims to inform more equitable and effective strategies for hazard mitigation and climate adaptation.
+

@@ -1,89 +1,68 @@
 project:
   type: website
   output-dir: docs
-  pre-render:  # This can be deleted if you are using the manually curated list of publications in publications.qmd
-    - python xlsx_to_yml.py  # Automatically generate publications.yml from publications.xlsx
     
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Hino Lab at UNC"
+author-meta: "Dr. Miyuki Hino"
 
 website:
-  title: "Quarto Academic"
+  title: "Hino Lab at UNC"
   image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  description: "We study impacts of and responses to climate-driven hazards"
  
   navbar:
-    background: light  # You can change the background color here
+    background: transparent  # You can change the background color here
 
     left:   # You can comment out all navigation items here if you just like to keep the index page only
-#      - text: Home
-#        href: index.qmd
-      - text: About
-        menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
-          - text: Contact
-            href: contact.qmd             
       - text: Research
-        menu:
-          - text: Publications Listing  # Automatically generated from publications.xlsx
-            href: pub-listing.qmd
-          - text: Publications  # Manually curated list of publications
-            href: publications.qmd            
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group   # Comment the Group part out to remove the Group page
+        href: research.qmd                           
+      - text: People
         href: people.qmd
+      - text: Opportunities
+        href: https://www.miyukihino.com/opportunities
+      # - text: Opportunities
+      #   href: opportunities.qmd           
+      
 
-    right: 
-      - text: CV
-        href: files/nsf-biosketch.pdf
-      - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
-      - icon: rss
-        href: posts.xml
-        target: _blank
+    # right: 
+    #   - text: CV
+    #     href: files/nsf-biosketch.pdf
+    #   - icon: github
+    #     href: https://github.com/drganghe/quarto-academic-website-template
+    #     target: _blank
+    #   - text: "{{< fa brands bluesky >}}"
+    #     href: https://bsky.app
+    #     target: _blank      
+    #   - icon: rss
+    #     href: posts.xml
+    #     target: _blank
   
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: "Made with [Quarto](https://github.com/drganghe/quarto-academic-website-template). Hino Lab &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: ""
     right:  
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/hino-lab-unc
         target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
-        target: _blank
+      # - text: "{{< fa brands bluesky >}}" 
+      #   href: https://bsky.app
+      #   target: _blank
       - icon: rss
         href: posts.xml
         target: _blank  
   
   search:
     location: navbar
-    type: textbox
+    type: overlay
   
-  reader-mode: true
+  reader-mode: false
 
   draft-mode: unlinked
   
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
+  repo-url: https://github.com/hino-lab-unc/hino-lab-unc.github.io
 #  repo-actions: [edit, issue, source]
   
   open-graph: true
@@ -91,7 +70,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
+  site-url: "https://hino-lab-unc.github.io/"
   
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID

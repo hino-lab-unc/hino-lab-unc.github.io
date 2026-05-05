@@ -6,43 +6,66 @@ page-layout: full
 date-format: "YYYY-MM"
 listing:  #an example of listing external links
 #  template: item-default-external.ejs
-- id: lab-member
+
+- id: pi
   sort: "lastname asc"
-  type: grid
-  fields: [image, title, subtitle]
-  grid-item-align: center
-  grid-columns: 4
-  image-height: 200px
-  categories: true
-#  sort-ui: true
-#  filter-ui: true
+  type: default
+  fields: [image, title, subtitle, description]
+  image-height: 400px
+  image-align: left
   contents: 
-    - /people/pi.yml  # Use individual files here as you may use each person at different occasions such as events, news.
-    - /people/phd-student.yml
-    - /people/masters-student.yml
-    - /people/undergraduate-student.yml
+    - people/pi.yml
+
+- id: postdoc
+  sort: "lastname asc"
+  type: default
+  # fields: [image, title, subtitle, description]
+  image-height: 400px
+  image-align: left
+#  sort-ui: true
+#  filter-ui: true 
+  contents: 
+    - people/postdocs
+
+- id: grad-student
+  sort: "lastname asc"
+  type: default
+  # fields: [image, title, subtitle, description]
+  image-height: 400px
+  image-align: left
+#  sort-ui: true
+#  filter-ui: true 
+  contents: 
+    - people/grad-students
+    - people/grad-student.yml
+
+- id: undergrad-student
+  sort: "lastname asc"
+  type: default
+  # fields: [image, title, subtitle, description]
+  image-height: 400px
+  image-align: left
+#  sort-ui: true
+#  filter-ui: true 
+  contents: 
+    - people/undergrad-students
 
 - id: lab-alumni
   sort: 
     - "ended desc"
     - "lastname asc"  
-  type: table
-  fields: [image, title, subtitle, started, ended]
+  type: grid
+  fields: [image, title, subtitle]
   grid-item-align: center  
   grid-columns: 4
-  image-height: 25px
+  image-height: 300px
   field-display-names: 
       title: "Name"
       subtitle: "Role"
-      started: "Started"
-      ended: "Ended"
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
+  sort-ui: false
+  filter-ui: false
   contents: 
-    - /people/phd-alumni.yml
-    - /people/masters-alumni.yml
-    - /people/undergraduate-alumni.yml
+    - /people/alumni.yml
 
  
 
@@ -56,10 +79,25 @@ format:
 ---
 
 
-## Team
+## Principal Investigator
 
-:::{#lab-member}
+:::{#pi}
 :::
+
+<!-- ## Postdocs
+
+:::{#postdoc}
+::: -->
+
+## Graduate Students
+
+:::{#grad-student}
+:::
+
+<!-- ## Undergraduate Students
+
+:::{#undergrad-student}
+::: -->
 
 
 ## Alumni

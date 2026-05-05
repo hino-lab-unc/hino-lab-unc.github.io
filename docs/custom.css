@@ -3,3 +3,7 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
   display: inline-flex;
   vertical-align: middle;
 }
+
+.listing-description p a {
+  text-decoration: underline;
+}
