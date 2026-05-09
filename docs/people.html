@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-lastname','listing-subtitle','listing-categories','listing-website','listing-github','listing-scholar','listing-orcid','listing-description',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-lastname","listing-subtitle","listing-categories","listing-description"],
+      searchColumns: ["listing-title","listing-image","listing-lastname","listing-subtitle","listing-categories","listing-website","listing-github","listing-scholar","listing-orcid","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -111,9 +111,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-linkedin','listing-github','listing-lastname','listing-subtitle','listing-categories','listing-description','listing-scholar','listing-orcid',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-lastname","listing-subtitle","listing-categories","listing-description"],
+      searchColumns: ["listing-title","listing-image","listing-linkedin","listing-github","listing-lastname","listing-subtitle","listing-categories","listing-description","listing-scholar","listing-orcid"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
       
       searchColumns: [],
     };
@@ -167,9 +167,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-website','listing-scholar','listing-bluesky','listing-linkedin','listing-orcid','listing-github','listing-image','listing-title','listing-lastname','listing-subtitle','listing-categories','listing-started','listing-ended','listing-description',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-website","listing-scholar","listing-bluesky","listing-linkedin","listing-orcid","listing-github","listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
       
       searchColumns: [],
     };
@@ -332,11 +332,11 @@ window.Quarto = {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="People – Hino Lab at UNC">
-<meta property="og:description" content="Who we are">
+<meta property="og:description" content="We study impacts of and responses to climate-driven hazards">
 <meta property="og:image" content="https://hino-lab-unc.github.io/files/profiles/hino.webp">
 <meta property="og:site_name" content="Hino Lab at UNC">
 <meta name="twitter:title" content="People – Hino Lab at UNC">
-<meta name="twitter:description" content="Who we are">
+<meta name="twitter:description" content="We study impacts of and responses to climate-driven hazards">
 <meta name="twitter:image" content="https://hino-lab-unc.github.io/files/profiles/hino.webp">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -388,7 +388,6 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">People</h1>
-<p class="subtitle lead">Who we are</p>
 </div>
 
 
@@ -407,81 +406,120 @@ window.Quarto = {
 
 <section id="principal-investigator" class="level2">
 <h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
-<div id="listing-pi" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="UEk=">
-<div class="thumbnail"><a href="" class="no-external">
+<div id="listing-pi" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-people list">
 
-<img loading="lazy" src="./files/profiles/hino.webp" class="thumbnail-image" style="height: 400px;">
+  <div class="quarto-post image-left">
+    <div class="thumbnail">
+      <img loading="lazy" src="./files/profiles/hino.webp" class="thumbnail-image" style="height: 400px;">
+    </div>
+    <div class="body">
+      <h3 class="listing-title anchored">Miyuki Hino</h3>
+    
+      <div class="listing-subtitle">
+        Principal Investigator
+      </div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="" class="no-external">Miyuki Hino</a>
-</h3>
-<div class="listing-subtitle">
-<a href="" class="no-external">Principal Investigator</a>
-</div>
-<div class="delink listing-description"><a href="" class="no-external">
-</a><p><a href="" class="no-external">I am an environmental social scientist working on measuring and managing the impacts of climate change. My research examines the linkages between natural hazards, governance, and public policy to drive effective and equitable adaptation to climate change. Currently, I am an Associate Professor in the </a><a href="https://planning.unc.edu/">Department of City and Regional Planning</a> and an Adjunct Associate Professor in the <a href="https://e3p.unc.edu/">Environment, Ecology &amp; Energy Program</a> at the University of North Carolina at Chapel Hill.</p>
-<p>I received my Ph.D.&nbsp;from Stanford University’s <a href="https://pangea.stanford.edu/eiper/phd" target="_blank">Emmett Interdisciplinary Program in Environment and Resources (E-IPER)</a> and a B.S. in Chemical Engineering from Yale University. Before Stanford, I spent several years supporting evidence-based climate change adaptation and mitigation decision-making, most recently at the <a href="http://newclimateeconomy.net/" target="_blank">New Climate Economy</a> and <a href="https://www.icf.com/work/climate" target="_blank">ICF International</a>.</p>
-</div>
-</div>
-<div class="metadata">
-<a href="" class="no-external">
-</a>
-</div>
-</div>
+      <div class="listing-description">
+        <p>I am an environmental social scientist working on measuring and managing the impacts of climate change. My research examines the linkages between natural hazards, governance, and public policy to drive effective and equitable adaptation to climate change. Currently, I am an Associate Professor in the <a href="https://planning.unc.edu/">Department of City and Regional Planning</a> and an Adjunct Associate Professor in the <a href="https://e3p.unc.edu/">Environment, Ecology &amp; Energy Program</a> at the University of North Carolina at Chapel Hill.</p>
+<p>I received my Ph.D. from Stanford University's <a href="https://pangea.stanford.edu/eiper/phd" target="_blank">Emmett Interdisciplinary Program in Environment and Resources (E-IPER)</a> and a B.S. in Chemical Engineering from Yale University. Before Stanford, I spent several years supporting evidence-based climate change adaptation and mitigation decision-making, most recently at the <a href="http://newclimateeconomy.net/" target="_blank">New Climate Economy</a> and <a href="https://www.icf.com/work/climate" target="_blank">ICF International</a>.</p>
+
+      </div>
+    </div>
+    <div class="metadata">
+      <div class="body">
+        <h3 class="listing-title anchored">&nbsp;</h3>
+        <div class="listing-subtitle">&nbsp;</div>
+        <div class="listing-description">
+          <ul>
+             <li><i class="bi bi-file-person"></i> <a href="https://miyukihino.com/">Website</a></li> 
+             <li><i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=X5Q2-B0AAAAJ&amp;hl=en&amp;oi=ao">Scholar</a></li> 
+            
+            
+             <li><i class="bi bi-github"></i> <a href="https://github.com/miyukihino">GitHub</a></li> 
+             <li><i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0001-9369-5769">ORCID</a></li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
 <section id="research-staff" class="level2">
 <h2 class="anchored" data-anchor-id="research-staff">Research Staff</h2>
-<div id="listing-staff" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="U3RhZmY=">
-<div class="thumbnail"><a href="https://www.linkedin.com/in/russellblessing/" class="no-external">
+<div id="listing-staff" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-people list">
 
-<img loading="lazy" src="./files/profiles/hino.webp" class="thumbnail-image" style="height: 400px;">
+  <div class="quarto-post image-left">
+    <div class="thumbnail">
+      <img loading="lazy" src="./files/profiles/blessing.jpg" class="thumbnail-image" style="height: 400px;">
+    </div>
+    <div class="body">
+      <h3 class="listing-title anchored">Russell Blessing</h3>
+    
+      <div class="listing-subtitle">
+        Research Analyst
+      </div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://www.linkedin.com/in/russellblessing/" class="no-external">Russell Blessing</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://www.linkedin.com/in/russellblessing/" class="no-external">Research Assistant</a>
-</div>
-<div class="delink listing-description"><a href="https://www.linkedin.com/in/russellblessing/" class="no-external">
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://www.linkedin.com/in/russellblessing/" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="U3RhZmY=">
-<div class="thumbnail"><a href="" class="no-external">
+      <div class="listing-description">
+        
+      </div>
+    </div>
+    <div class="metadata">
+      <div class="body">
+        <h3 class="listing-title anchored">&nbsp;</h3>
+        <div class="listing-subtitle">&nbsp;</div>
+        <div class="listing-description">
+          <ul>
+            
+             <li><i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=rmxI87gAAAAJ&amp;hl=en&amp;oi=ao">Scholar</a></li> 
+             <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/russellblessing/">LinkedIn</a></li> 
+            
+             <li><i class="bi bi-github"></i> <a href="https://github.com/russblessing/">GitHub</a></li> 
+             <li><i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0003-4973-4032">ORCID</a></li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<img loading="lazy" src="./files/profiles/hino.webp" class="thumbnail-image" style="height: 400px;">
+  <div class="quarto-post image-left">
+    <div class="thumbnail">
+      <img loading="lazy" src="./files/profiles/kwassmason.webp" class="thumbnail-image" style="height: 400px;">
+    </div>
+    <div class="body">
+      <h3 class="listing-title anchored">Isabel Kwass-Mason</h3>
+    
+      <div class="listing-subtitle">
+        Research Analyst
+      </div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="" class="no-external">Isabel Kwass-Mason</a>
-</h3>
-<div class="listing-subtitle">
-<a href="" class="no-external">Research Assistant</a>
-</div>
-<div class="delink listing-description"><a href="" class="no-external">
-</a></div>
-</div>
-<div class="metadata">
-<a href="" class="no-external">
-</a>
-</div>
-</div>
+      <div class="listing-description">
+        Department of City and Regional Planning
+
+      </div>
+    </div>
+    <div class="metadata">
+      <div class="body">
+        <h3 class="listing-title anchored">&nbsp;</h3>
+        <div class="listing-subtitle">&nbsp;</div>
+        <div class="listing-description">
+          <ul>
+            
+            
+             <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/isabel-k-4345a5286/">LinkedIn</a></li> 
+            
+             <li><i class="bi bi-github"></i> <a href="https://www.linkedin.com/in/isabel-k-4345a5286/">GitHub</a></li> 
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -492,74 +530,112 @@ window.Quarto = {
 </section>
 <section id="graduate-students" class="level2">
 <h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
-<div id="listing-grad-student" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="UGhEJTIwU3R1ZGVudA==">
-<div class="thumbnail"><a href="https://jpcollins.me/" class="no-external">
+<div id="listing-grad-student" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-people list">
 
-<img loading="lazy" src="files/profiles/collins.jpg" class="thumbnail-image" style="height: 400px;">
+  <div class="quarto-post image-left">
+    <div class="thumbnail">
+      <img loading="lazy" src="files/profiles/collins.jpg" class="thumbnail-image" style="height: 400px;">
+    </div>
+    <div class="body">
+      <h3 class="listing-title anchored">James Collins</h3>
+    
+      <div class="listing-subtitle">
+        PhD Candidate
+      </div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://jpcollins.me/" class="no-external">James Collins</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://jpcollins.me/" class="no-external">PhD Student</a>
-</div>
-<div class="delink listing-description"><a href="https://jpcollins.me/" class="no-external">
-<p>James is in the Department of City and Regional Planning. His research engages with coastal communities in North Carolina experiencing and responding to flooding. He investigates how social, economic, and housing factors influence vulnerability and resilience, with projects on chronic coastal flooding, H-2A farmworker housing, and the long-term impacts of residential floodplain buyouts. His work aims to inform more equitable and effective strategies for hazard mitigation and climate adaptation.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://jpcollins.me/" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="UGhEJTIwU3R1ZGVudA==" data-listing-file-modified-sort="1777994296307" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./people/grad-students/farrah-hasan/index.html" class="no-external">
+      <div class="listing-description">
+        <p>James is in the Department of City and Regional Planning. His research engages with coastal communities in North Carolina experiencing and responding to flooding.</p>
+<p>He investigates how social, economic, and housing factors influence vulnerability and resilience, with projects on chronic coastal flooding, H-2A farmworker housing, and the long-term impacts of residential floodplain buyouts. His work aims to inform more equitable and effective strategies for hazard mitigation and climate adaptation.</p>
 
-<img loading="lazy" src="./people/grad-students/farrah-hasan/hasan.jpg" class="thumbnail-image" style="height: 400px;">
+      </div>
+    </div>
+    <div class="metadata">
+      <div class="body">
+        <h3 class="listing-title anchored">&nbsp;</h3>
+        <div class="listing-subtitle">&nbsp;</div>
+        <div class="listing-description">
+          <ul>
+             <li><i class="bi bi-file-person"></i> <a href="https://jpcollins.me/">Website</a></li> 
+             <li><i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?hl=en&amp;pli=1&amp;user=n5r6I98AAAAJ">Scholar</a></li> 
+             <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/jamespcollins">LinkedIn</a></li> 
+             <li><i class="bi bi-bluesky"></i> <a href="https://bsky.app/profile/jpcollins.me">Bluesky</a></li> 
+             <li><i class="bi bi-github"></i> <a href="http://github.com/jamespcollins">GitHub</a></li> 
+             <li><i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0001-5751-9733">ORCID</a></li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./people/grad-students/farrah-hasan/index.html" class="no-external">Farrah Hasan</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./people/grad-students/farrah-hasan/index.html" class="no-external">PhD Student</a>
-</div>
-<div class="delink listing-description"><a href="./people/grad-students/farrah-hasan/index.html" class="no-external">
-<p>Lorem ipsum.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./people/grad-students/farrah-hasan/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-categories="UGhEJTIwU3R1ZGVudA==" data-listing-file-modified-sort="1777994296307" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./people/grad-students/ruitian-yan/index.html" class="no-external">
+  <div class="quarto-post image-left">
+    <div class="thumbnail">
+      <img loading="lazy" src="files/profiles/hasan.jpg" class="thumbnail-image" style="height: 400px;">
+    </div>
+    <div class="body">
+      <h3 class="listing-title anchored">Farrah Hasan</h3>
+    
+      <div class="listing-subtitle">
+        PhD Student
+      </div>
 
-<img loading="lazy" src="./people/grad-students/ruitian-yan/yan.jpg" class="thumbnail-image" style="height: 400px;">
+      <div class="listing-description">
+        Farrah is a second-year PhD student at UNC Chapel Hill’s Department of City and Regional Planning. She has a broad research interest in climate migrant destinations as well as the roles of labor, water, and disasters in determining livability. Her Master’s thesis highlighted Mongla, Bangladesh as a case study on how cities can prepare their infrastructure and services for climate migrants.
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./people/grad-students/ruitian-yan/index.html" class="no-external">Ruitian Yan</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./people/grad-students/ruitian-yan/index.html" class="no-external">PhD Candidate</a>
-</div>
-<div class="delink listing-description"><a href="./people/grad-students/ruitian-yan/index.html" class="no-external">
-<p>Ruitian Yan is in the Environment, Ecology, and Energy Program (E3P) at UNC-Chapel Hill. Co-advised by Dr.&nbsp;Hino and Dr.&nbsp;Sebastian, Ruitian is interested in studying the social and financial impacts of flooding on housing. Prior to joining UNC, she worked in the financial sector on Environmental, Social, and Governance (ESG) and climate risk management. She received her bachelor’s degree in Environmental Science from Brown University.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./people/grad-students/ruitian-yan/index.html" class="no-external">
-</a>
-</div>
-</div>
+      </div>
+    </div>
+    <div class="metadata">
+      <div class="body">
+        <h3 class="listing-title anchored">&nbsp;</h3>
+        <div class="listing-subtitle">&nbsp;</div>
+        <div class="listing-description">
+          <ul>
+            
+             <li><i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?hl=en&amp;user=oKv-4d4AAAAJ">Scholar</a></li> 
+             <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/farrah-hasan/">LinkedIn</a></li> 
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="quarto-post image-left">
+    <div class="thumbnail">
+      <img loading="lazy" src="files/profiles/yan.jpg" class="thumbnail-image" style="height: 400px;">
+    </div>
+    <div class="body">
+      <h3 class="listing-title anchored">Ruitian Yan</h3>
+    
+      <div class="listing-subtitle">
+        PhD Candidate
+      </div>
+
+      <div class="listing-description">
+        Ruitian is in the Environment, Ecology, and Energy Program (E3P) at UNC-Chapel Hill. Co-advised by Dr. Hino and Dr. Antonia Sebastian, Ruitian is interested in studying the social and financial impacts of flooding on housing. Prior to joining UNC, she worked in the financial sector on Environmental, Social, and Governance (ESG) and climate risk management. She received her bachelor’s degree in Environmental Science from Brown University.
+
+      </div>
+    </div>
+    <div class="metadata">
+      <div class="body">
+        <h3 class="listing-title anchored">&nbsp;</h3>
+        <div class="listing-subtitle">&nbsp;</div>
+        <div class="listing-description">
+          <ul>
+            
+            
+             <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/yan-ruitian/">LinkedIn</a></li> 
+            
+             <li><i class="bi bi-github"></i> <a href="https://github.com/rt-yan">GitHub</a></li> 
+             <li><i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0003-3014-6513">ORCID</a></li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -573,33 +649,33 @@ window.Quarto = {
 <div id="listing-affiliates" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="QWZmaWxpYXRl">
-<a href="https://www.linkedin.com/in/julian-plough-b3010284/" class="quarto-grid-link">
+<a href="https://abhatia.me/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/profiles/plough.jpg" class="thumbnail-image card-img" style="height: 300px;">
+<img loading="lazy" src="./files/profiles/bhatia.jpg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Abhishek Bhatia
 </h5>
 <div class="card-subtitle listing-subtitle">
-<p>PhD Student</p>
+<p>PhD Candidate, <br>UNC Health Informatics</p>
 </div>
 </div>
 </div></a>
 </div>
 <div class="g-col-1" data-index="1" data-categories="QWZmaWxpYXRl">
-<a href="https://www.linkedin.com/in/julian-plough-b3010284/" class="quarto-grid-link">
+<a href="https://www.linkedin.com/in/kieranfitzmason/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/profiles/plough.jpg" class="thumbnail-image card-img" style="height: 300px;">
+<img loading="lazy" src="./files/profiles/fitzmason.jpg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Kieran Fitzmason
 </h5>
 <div class="card-subtitle listing-subtitle">
-<p>PhD Student</p>
+<p>PhD Student, <br>UNC Environmental Science and Engineering</p>
 </div>
 </div>
 </div></a>
@@ -671,13 +747,13 @@ Dr.&nbsp;Jihoon Jung
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-postdoc">
-<div class="list quarto-listing-default">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-postdoc">
+<div class="quarto-listing-people list">
 
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div><div class="quarto-listing quarto-listing-container-default" id="listing-undergrad-student">
-<div class="list quarto-listing-default">
+</div><div class="quarto-listing quarto-listing-container-custom" id="listing-undergrad-student">
+<div class="quarto-listing-people list">
 
 </div>
 <div class="listing-no-matching d-none">No matching items</div>

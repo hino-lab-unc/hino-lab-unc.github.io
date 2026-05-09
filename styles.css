@@ -1,1 +1,42 @@
 /* css styles */
+
+
+.quarto-listing-people .quarto-post .listing-description a {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+.quarto-listing-people .quarto-post .metadata ul {
+  list-style: none;
+}
+
+.quarto-listing-people .quarto-post {
+    border-bottom: none;
+}
+
+@media (max-width: 767.98px) {
+    .quarto-listing-people .quarto-post .thumbnail {
+        order: 1;
+        width: 400px;
+    }
+
+    .quarto-listing-people .quarto-post .metadata h3, .quarto-listing-people .quarto-post .metadata .listing-subtitle {
+        display: none;
+    }
+
+    .quarto-listing-people .quarto-post .body .listing-title {
+        padding-top: 1.3em;
+    }
+
+    .quarto-listing-people .quarto-post .metadata ul {
+        padding-left: 0;
+    }
+
+    .quarto-listing-people .quarto-post .metadata ul li {
+        display: inline;
+        padding-right: 1em;
+        font-size: 1.3em;
+    }
+
+}
+

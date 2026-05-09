@@ -1,10 +1,7 @@
 [
   {
     "listing": "/people.html",
-    "items": [
-      "/people/grad-students/farrah-hasan/index.html",
-      "/people/grad-students/ruitian-yan/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/index.html",
@@ -15,16 +12,16 @@
     ]
   },
   {
+    "listing": "/pub-listing.html",
+    "items": []
+  },
+  {
     "listing": "/research.html",
     "items": [
       "/posts/event-title/index.html",
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"
     ]
-  },
-  {
-    "listing": "/pub-listing.html",
-    "items": []
   },
   {
     "listing": "/projects.html",

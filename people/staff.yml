@@ -1,15 +1,21 @@
     - title: "Isabel Kwass-Mason"
-      image: "/files/profiles/hino.webp"
-      # path: https://www.miyukihino.com/
+      image: "/files/profiles/kwassmason.webp"
+      linkedin: https://www.linkedin.com/in/isabel-k-4345a5286/
+      github: https://www.linkedin.com/in/isabel-k-4345a5286/
       lastname: "Kwass"
-      subtitle: "Research Assistant"
+      subtitle: "Research Analyst"
       categories: [Staff]
       description: |
+        Department of City and Regional Planning
 
     - title: "Russell Blessing"
-      image: "/files/profiles/hino.webp"
-      path: https://www.linkedin.com/in/russellblessing/
+      image: "/files/profiles/blessing.jpg"
+      linkedin: https://www.linkedin.com/in/russellblessing/
+      scholar: https://scholar.google.com/citations?user=rmxI87gAAAAJ&hl=en&oi=ao
+      github: https://github.com/russblessing/
+      orcid: https://orcid.org/0000-0003-4973-4032
       lastname: "Blessing"
-      subtitle: "Research Assistant"
+      subtitle: "Research Analyst"
       categories: [Staff]
       description: |
+        

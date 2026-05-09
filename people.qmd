@@ -1,61 +1,36 @@
 ---
 title: "People"
-subtitle: "Who we are"
-#image: files/group.jpeg
+subtitle: ""
 page-layout: full
-date-format: "YYYY-MM"
-listing:  #an example of listing external links
-#  template: item-default-external.ejs
-
+date-format: "YYYY"
+listing:
 - id: pi
   sort: "lastname asc"
-  type: default
-  fields: [image, title, subtitle, description]
-  image-height: 400px
-  image-align: left
+  template: people.ejs.md
   contents: 
     - people/pi.yml
 
 - id: staff
   sort: "lastname asc"
-  type: default
-  fields: [image, title, subtitle, description]
-  image-height: 400px
-  image-align: left
+  template: people.ejs.md
   contents: 
     - people/staff.yml
 
 - id: postdoc
   sort: "lastname asc"
-  type: default
-  # fields: [image, title, subtitle, description]
-  image-height: 400px
-  image-align: left
-#  sort-ui: true
-#  filter-ui: true 
+  template: people.ejs.md
   contents: 
-    - people/postdocs
+    - people/postdoc.yml
 
 - id: grad-student
   sort: "lastname asc"
-  type: default
-  # fields: [image, title, subtitle, description]
-  image-height: 400px
-  image-align: left
-#  sort-ui: true
-#  filter-ui: true 
+  template: people.ejs.md
   contents: 
-    - people/grad-students
     - people/grad-student.yml
 
 - id: undergrad-student
   sort: "lastname asc"
-  type: default
-  # fields: [image, title, subtitle, description]
-  image-height: 400px
-  image-align: left
-#  sort-ui: true
-#  filter-ui: true 
+  template: people.ejs.md
   contents: 
     - people/undergrad-students
 
@@ -70,7 +45,7 @@ listing:  #an example of listing external links
   sort-ui: false
   filter-ui: false
   contents: 
-    - /people/affiliates.yml
+    - people/affiliate.yml
 
 - id: lab-alumni
   sort: 
@@ -87,9 +62,7 @@ listing:  #an example of listing external links
   sort-ui: false
   filter-ui: false
   contents: 
-    - /people/alumni.yml
-
- 
+    - people/alumni.yml
 
 page-navigation: false
 title-block-banner: false
@@ -98,6 +71,8 @@ toc: false
 format:
   html:
     link-external-newwindow: true
+
+filters: [remove-stray-divfence.lua]
 ---
 
 

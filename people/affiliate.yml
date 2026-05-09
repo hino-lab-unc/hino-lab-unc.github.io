@@ -1,0 +1,19 @@
+    - path: https://www.linkedin.com/in/kieranfitzmason/
+      image: "/files/profiles/fitzmason.jpg"
+      title: "Kieran Fitzmason"
+      lastname: "Fitzmason"
+      subtitle: |
+        PhD Student, <br>UNC Environmental Science and Engineering
+      categories: [Affiliate] 
+      started: "2024"
+      ended: "2025"
+
+    - path: https://abhatia.me/
+      image: "/files/profiles/bhatia.jpg"
+      title: "Abhishek Bhatia"
+      lastname: "Bhatia"
+      subtitle: |
+        PhD Candidate, <br>UNC Health Informatics
+      categories: [Affiliate] 
+      started: "2024"
+      ended: "2026"

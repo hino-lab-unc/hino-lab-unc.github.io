@@ -1,13 +1,43 @@
-    - path: https://jpcollins.me/
+    - website: https://jpcollins.me/
+      scholar: https://scholar.google.com/citations?hl=en&pli=1&user=n5r6I98AAAAJ
+      bluesky: https://bsky.app/profile/jpcollins.me
+      linkedin: https://www.linkedin.com/in/jamespcollins
+      orcid: https://orcid.org/0000-0001-5751-9733
+      github: http://github.com/jamespcollins
       image: "files/profiles/collins.jpg"
       title: "James Collins"
       lastname: "Collins"
-#      author: 
-      subtitle: "PhD Student"
-#      date: "2024-03-12"
+      subtitle: "PhD Candidate"
       categories: [PhD Student] 
       started: "2023"
       ended: "2028"
       description: |
-       James is in the Department of City and Regional Planning. His research engages with coastal communities in North Carolina experiencing and responding to flooding. He investigates how social, economic, and housing factors influence vulnerability and resilience, with projects on chronic coastal flooding, H-2A farmworker housing, and the long-term impacts of residential floodplain buyouts. His work aims to inform more equitable and effective strategies for hazard mitigation and climate adaptation.
+       <p>James is in the Department of City and Regional Planning. His research engages with coastal communities in North Carolina experiencing and responding to flooding.</p>
+       <p>He investigates how social, economic, and housing factors influence vulnerability and resilience, with projects on chronic coastal flooding, H-2A farmworker housing, and the long-term impacts of residential floodplain buyouts. His work aims to inform more equitable and effective strategies for hazard mitigation and climate adaptation.</p>
 
+    - title: "Ruitian Yan"
+      linkedin: https://www.linkedin.com/in/yan-ruitian/
+      orcid: https://orcid.org/0000-0003-3014-6513
+      github: https://github.com/rt-yan
+      image: "files/profiles/yan.jpg"
+      lastname: "Yan"
+      subtitle: "PhD Candidate"
+      description: |
+        Ruitian is in the Environment, Ecology, and Energy Program (E3P) at UNC-Chapel Hill. Co-advised by Dr. Hino and Dr. Antonia Sebastian, Ruitian is interested in studying the social and financial impacts of flooding on housing. Prior to joining UNC, she worked in the financial sector on Environmental, Social, and Governance (ESG) and climate risk management. She received her bachelor’s degree in Environmental Science from Brown University.
+      categories: [PhD Student]
+      started: "2023"
+      ended: "2028"
+
+    - title: "Farrah Hasan"
+      linkedin: https://www.linkedin.com/in/farrah-hasan/
+      scholar: https://scholar.google.com/citations?hl=en&user=oKv-4d4AAAAJ
+      image: "files/profiles/hasan.jpg"
+      lastname: "Hasan"
+      subtitle: "PhD Student"
+      description: |
+        Farrah is a second-year PhD student at UNC Chapel Hill’s Department of City and Regional Planning. She has a broad research interest in climate migrant destinations as well as the roles of labor, water, and disasters in determining livability. Her Master’s thesis highlighted Mongla, Bangladesh as a case study on how cities can prepare their infrastructure and services for climate migrants.
+      categories: [PhD Student]
+      started: "2024"
+      ended: "2029"
+
+# Wesley and Tessa can add info here
