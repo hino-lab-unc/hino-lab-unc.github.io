@@ -1,5 +1,8 @@
 /* css styles */
 
+.navbar {
+    background-color: rgba(255,255,255,0.9);
+}
 
 .quarto-listing-people .quarto-post .listing-description a {
   color: cornflowerblue;
