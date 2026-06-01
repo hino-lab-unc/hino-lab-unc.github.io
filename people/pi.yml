@@ -2,7 +2,7 @@
       image: "/files/profiles/hino.webp"
       # path: https://www.miyukihino.com/
       lastname: "Hino"
-      subtitle: "Principal Investigator"
+      subtitle: "PI"
       categories: [PI]
       website: https://miyukihino.com/
       github: https://github.com/miyukihino
