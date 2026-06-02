@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "ul-people.ejs.html",
+    "href": "ul-people.ejs.html",
+    "title": "Hino Lab at UNC",
+    "section": "",
+    "text": "&lt;% for (const item of items) { %&gt;\n   &lt;%= item.title %&gt;\n&lt;% } %&gt;"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Principal Investigator\n      \n\n      \n        I am an environmental social scientist working on measuring and managing the impacts of climate change. My research examines the linkages between natural hazards, governance, and public policy to drive effective and equitable adaptation to climate change. Currently, I am an Associate Professor in the Department of City and Regional Planning and an Adjunct Associate Professor in the Environment, Ecology & Energy Program at the University of North Carolina at Chapel Hill.\nI received my Ph.D. from Stanford University's Emmett Interdisciplinary Program in Environment and Resources (E-IPER) and a B.S. in Chemical Engineering from Yale University. Before Stanford, I spent several years supporting evidence-based climate change adaptation and mitigation decision-making, most recently at the New Climate Economy and ICF International.\n\n      \n    \n    \n      \n        \n         \n        \n          \n              Website \n              Scholar \n            \n            \n              GitHub \n              ORCID \n          \n        \n        \n      \n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "People",
+    "section": "",
+    "text": "Principal Investigator\n      \n\n      \n        I am an environmental social scientist working on measuring and managing the impacts of climate change. My research examines the linkages between natural hazards, governance, and public policy to drive effective and equitable adaptation to climate change. Currently, I am an Associate Professor in the Department of City and Regional Planning and an Adjunct Associate Professor in the Environment, Ecology & Energy Program at the University of North Carolina at Chapel Hill.\nI received my Ph.D. from Stanford University's Emmett Interdisciplinary Program in Environment and Resources (E-IPER) and a B.S. in Chemical Engineering from Yale University. Before Stanford, I spent several years supporting evidence-based climate change adaptation and mitigation decision-making, most recently at the New Climate Economy and ICF International.\n\n      \n    \n    \n      \n        \n         \n        \n          \n              Website \n              Scholar \n            \n            \n              GitHub \n              ORCID \n          \n        \n        \n      \n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#research-staff",
+    "href": "people.html#research-staff",
+    "title": "People",
+    "section": "Research Staff",
+    "text": "Research Staff\n\n\n\n  \n    \n      \n    \n    \n      Russell Blessing\n    \n      \n        Research Analyst\n      \n\n      \n        \n      \n    \n    \n      \n         \n         \n        \n          \n            \n              Scholar \n              LinkedIn \n            \n              GitHub \n              ORCID \n          \n        \n        \n      \n    \n  \n\n  \n    \n      \n    \n    \n      Isabel Kwass-Mason\n    \n      \n        Research Analyst\n      \n\n      \n        Department of City and Regional Planning\n\n      \n    \n    \n      \n         \n         \n        \n          \n            \n            \n              LinkedIn \n            \n              GitHub \n            \n          \n        \n        \n        \n          \n            Projects\n            \n               Sunny Day\n            \n               Migration\n            \n          \n        \n        \n      \n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#graduate-students",
+    "href": "people.html#graduate-students",
+    "title": "People",
+    "section": "Graduate Students",
+    "text": "Graduate Students\n\n\n\n  \n    \n      \n    \n    \n      James Collins\n    \n      \n        PhD Candidate\n      \n\n      \n        James is in the Department of City and Regional Planning. His research engages with coastal communities in North Carolina experiencing and responding to flooding.\nHe investigates how social, economic, and housing factors influence vulnerability and resilience, with projects on chronic coastal flooding, H-2A farmworker housing, and the long-term impacts of residential floodplain buyouts. His work aims to inform more equitable and effective strategies for hazard mitigation and climate adaptation.\n\n      \n    \n    \n      \n         \n         \n        \n          \n              Website \n              Scholar \n              LinkedIn \n              Bluesky \n              GitHub \n              ORCID \n          \n        \n        \n        \n          \n            Projects\n            \n               Sunny Day\n            \n          \n        \n        \n      \n    \n  \n\n  \n    \n      \n    \n    \n      Farrah Hasan\n    \n      \n        PhD Student\n      \n\n      \n        Farrah is a second-year PhD student at UNC Chapel Hill’s Department of City and Regional Planning. She has a broad research interest in climate migrant destinations as well as the roles of labor, water, and disasters in determining livability. Her Master’s thesis highlighted Mongla, Bangladesh as a case study on how cities can prepare their infrastructure and services for climate migrants.\n\n      \n    \n    \n      \n         \n         \n        \n          \n            \n              Scholar \n              LinkedIn \n            \n            \n            \n          \n        \n        \n      \n    \n  \n\n  \n    \n      \n    \n    \n      Ruitian Yan\n    \n      \n        PhD Candidate\n      \n\n      \n        Ruitian is in the Environment, Ecology, and Energy Program (E3P) at UNC-Chapel Hill. Co-advised by Dr. Hino and Dr. Antonia Sebastian, Ruitian is interested in studying the social and financial impacts of flooding on housing. Prior to joining UNC, she worked in the financial sector on Environmental, Social, and Governance (ESG) and climate risk management. She received her bachelor’s degree in Environmental Science from Brown University.\n\n      \n    \n    \n      \n         \n         \n        \n          \n            \n            \n              LinkedIn \n            \n              GitHub \n              ORCID \n          \n        \n        \n        \n          \n            Projects\n            \n               Migration\n            \n          \n        \n        \n      \n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#affiliates",
+    "href": "people.html#affiliates",
+    "title": "People",
+    "section": "Affiliates",
+    "text": "Affiliates\n\n\n\n\n\n\n\n\n\n\nAbhishek Bhatia\n\n\nPhD Candidate, UNC Health Informatics\n\n\n\n\n\n\n\n\n\n\n\n\nKieran Fitzmason\n\n\nPhD Student, UNC Environmental Science and Engineering\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n\n\n\n\n\n\n\n\nDr. Helena Garcia\n\n\nPostdoc,  Dartmouth University\nPhD Student 2021-2026\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Julian Plough\n\n\nIndependent\nPostdoc 2024-2025\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Jihoon Jung\n\n\nAssistant Professsor,  Geography and the Environment,  University of North Texas\nPostdoc 2022-2023\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Sunny day flooding in Carolina Beach, NC\n\n\nAs local sea-level rise, land subsidence, and development continue to increase in coastal areas, so does the frequency of flooding.\nThe tidal cycle now takes place on higher average sea levels, resulting in “sunny day” flooding of roadways during high tides. Sea water also infiltrates stormwater drainage systems at normal tidal levels, such that ordinary rainstorms lead to flooding. While these minor floods draw less attention than catastrophic storms, their high frequency imposes a chronic stress on coastal communities and economies by disrupting critical infrastructure services.\nLearn more →\n\n\n\n\n\n\n\n\n   James Collins\n\n   Isabel Kwass-Mason\n\n\nNo matching items\n\n\n\n\n\n   Land-based sensors reveal high frequency of coastal flooding\n\n\nNo matching items\n\n\n\n\n\n   Abhishek Bhatia\n\n   Ruitian Yan\n\n   Isabel Kwass-Mason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   Kieran Fitzmason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n   Land-based sensors reveal high frequency of coastal flooding\n\n\nNo matching items\n\n\n\n\n\n   Abhishek Bhatia\n\n   Ruitian Yan\n\n   Isabel Kwass-Mason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   Kieran Fitzmason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\nProjects – Hino Lab at UNC Projects – Hino Lab at UNC Projects – Hino Lab at UNC Hino Lab at UNC We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards"
+  },
+  {
+    "objectID": "projects.html#sunny-day",
+    "href": "projects.html#sunny-day",
+    "title": "Projects",
+    "section": "",
+    "text": "Sunny day flooding in Carolina Beach, NC\n\n\nAs local sea-level rise, land subsidence, and development continue to increase in coastal areas, so does the frequency of flooding.\nThe tidal cycle now takes place on higher average sea levels, resulting in “sunny day” flooding of roadways during high tides. Sea water also infiltrates stormwater drainage systems at normal tidal levels, such that ordinary rainstorms lead to flooding. While these minor floods draw less attention than catastrophic storms, their high frequency imposes a chronic stress on coastal communities and economies by disrupting critical infrastructure services.\nLearn more →\n\n\n\n\n\n\n\n\n   James Collins\n\n   Isabel Kwass-Mason\n\n\nNo matching items\n\n\n\n\n\n   Land-based sensors reveal high frequency of coastal flooding\n\n\nNo matching items\n\n\n\n\n\n   Abhishek Bhatia\n\n   Ruitian Yan\n\n   Isabel Kwass-Mason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   Kieran Fitzmason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n   Land-based sensors reveal high frequency of coastal flooding\n\n\nNo matching items\n\n\n\n\n\n   Abhishek Bhatia\n\n   Ruitian Yan\n\n   Isabel Kwass-Mason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   Kieran Fitzmason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\nProjects – Hino Lab at UNC Projects – Hino Lab at UNC Projects – Hino Lab at UNC Hino Lab at UNC We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards"
+  },
+  {
+    "objectID": "projects.html#migration",
+    "href": "projects.html#migration",
+    "title": "Projects",
+    "section": "Coastal Migration",
+    "text": "Coastal Migration\n\nWho’s moving towards and away from coastal hazards?\n\n\n\nTeam members\n\n\n\n\n   Abhishek Bhatia\n\n   Ruitian Yan\n\n   Isabel Kwass-Mason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   Kieran Fitzmason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\nProjects – Hino Lab at UNC Projects – Hino Lab at UNC Projects – Hino Lab at UNC Hino Lab at UNC We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards\n\n\n\n\n\nRecent Research\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   Kieran Fitzmason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\nProjects – Hino Lab at UNC Projects – Hino Lab at UNC Projects – Hino Lab at UNC Hino Lab at UNC We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards"
+  },
+  {
+    "objectID": "people.ejs.html",
+    "href": "people.ejs.html",
+    "title": "Hino Lab at UNC",
+    "section": "",
+    "text": "&lt;% for (const item of items) { %&gt;\n  \n    \n      \n    \n    \n      &lt;%= item.title %&gt;\n    \n      \n        &lt;%= item.subtitle %&gt;\n      \n\n      \n        &lt;%= item.description %&gt;\n      \n    \n    \n      \n         \n         \n        \n          \n            &lt;% if(item.website) { %&gt;  Website &lt;% } %&gt;\n            &lt;% if(item.scholar) { %&gt;  Scholar &lt;% } %&gt;\n            &lt;% if(item.linkedin) { %&gt;  LinkedIn &lt;% } %&gt;\n            &lt;% if(item.bluesky) { %&gt;  Bluesky &lt;% } %&gt;\n            &lt;% if(item.github) { %&gt;  GitHub &lt;% } %&gt;\n            &lt;% if(item.orcid) { %&gt;  ORCID &lt;% } %&gt;\n          \n        \n        &lt;% if (item.projects) {%&gt;\n        \n          \n            Projects\n            &lt;% for (proj in item.projects) {%&gt;\n               &lt;%= item.projects[proj] %&gt;\n            &lt;% } %&gt;\n          \n        \n        &lt;% } %&gt;\n      \n    \n  \n&lt;% } %&gt;"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nLand-based sensors reveal high frequency of coastal flooding\n\n\nNature Communications Earth & Environment\n\n\n\n\n\n2025\n\n\nHino, Miyuki and Anarde, Katherine and Fridell, Tessa and McCune, Ryan and Thelen, Thomas and Farquhar, Elizabeth and Woodard, Perri and Whipple, Anthony\n\n\n\n\n\n\n\nReconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA\n\n\nEarth’s Future\n\n\n\n\n\n2025\n\n\nGarcia, Helena M. and Sebastian, Antonia and Fitzmaurice, Kieran P. and Hino, Miyuki and Collins, Elyssa L. and Characklis, Gregory W.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hino Lab at UNC Chapel Hill",
+    "section": "",
+    "text": "We map populations, engage communities, and identify policy gaps to understand climate-driven hazards in North Carolina and beyond.\nWe strive towards a less risky world.\n \n  \n\n\n\nWhat’s new\n\n\n\n\n\n\n\nLand-based sensors reveal high frequency of coastal flooding\n\n\n\n\n\n\n\n\n\nReconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA\n\n\n\n\n\nNo matching items\n\n\n\n\nProjects Research People Opportunities →"
+  },
+  {
+    "objectID": "ul-pubs.ejs.html",
+    "href": "ul-pubs.ejs.html",
+    "title": "Hino Lab at UNC",
+    "section": "",
+    "text": "&lt;% for (const item of items) { %&gt;\n   &lt;%= item.title %&gt;\n&lt;% } %&gt;"
+  }
+]

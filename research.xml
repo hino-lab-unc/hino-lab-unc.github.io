@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Hino Lab at UNC</title>
+<link>https://hino-lab-unc.github.io/research.html</link>
+<atom:link href="https://hino-lab-unc.github.io/research.xml" rel="self" type="application/rss+xml"/>
+<description>We study impacts of and responses to climate-driven hazards</description>
+<image>
+<url>https://quarto.org/quarto.png</url>
+<title>Hino Lab at UNC</title>
+<link>https://hino-lab-unc.github.io/research.html</link>
+</image>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Sun, 01 Jun 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Land-based sensors reveal high frequency of coastal flooding</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>chronic flooding</category>
+  <category>events</category>
+  <category>data</category>
+  <category>sensors</category>
+  <category>North Carolina</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Sun, 01 Jun 2025 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Reconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>model</category>
+  <category>events</category>
+  <category>data</category>
+  <category>repetitive flooding</category>
+  <category>North Carolina</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Wed, 01 Jan 2025 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

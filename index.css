@@ -1,0 +1,68 @@
+body {
+    background-image: url('files/images/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.content, .card, .navbar a, 
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+    color: #fff;
+}
+
+.nav-footer, .navbar, .quarto-grid-item, .card {
+    background-color: transparent;
+}
+
+.quarto-grid-item, .card {
+    border: none;
+    border-color: #fff;
+    border-radius: 0.5em;
+}
+
+
+
+h1, h3, .more a {
+    font-weight: 100;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body, .more a, .nav-footer, .nav-footer a {
+    color: #ddd;
+}
+
+.more a {
+    padding-right: 1em;
+    font-size: 1.45rem;
+}
+
+.navbar {
+    display: none;
+}
+
+
+@media (min-width: 767.99px) {
+    body {
+        position: relative;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .content {
+        /* display: flex; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        padding-top: 0 !important;
+        /* padding-top: 40% !important; */
+    }
+}
+
+@media (max-width: 767.98px) {
+    .more a {
+        display: block;
+    }
+}
