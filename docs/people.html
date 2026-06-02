@@ -111,9 +111,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image','listing-linkedin','listing-github','listing-lastname','listing-subtitle','listing-categories','listing-description','listing-scholar','listing-orcid',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-image','listing-linkedin','listing-github','listing-lastname','listing-subtitle','listing-categories','listing-projects','listing-description','listing-scholar','listing-orcid',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-linkedin","listing-github","listing-lastname","listing-subtitle","listing-categories","listing-description","listing-scholar","listing-orcid"],
+      searchColumns: ["listing-title","listing-image","listing-linkedin","listing-github","listing-lastname","listing-subtitle","listing-categories","listing-projects","listing-description","listing-scholar","listing-orcid"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -167,9 +167,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-website','listing-scholar','listing-bluesky','listing-linkedin','listing-orcid','listing-github','listing-image','listing-title','listing-lastname','listing-subtitle','listing-categories','listing-started','listing-ended','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-website','listing-scholar','listing-bluesky','listing-linkedin','listing-orcid','listing-github','listing-image','listing-title','listing-lastname','listing-subtitle','listing-categories','listing-projects','listing-started','listing-ended','listing-description',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-website","listing-scholar","listing-bluesky","listing-linkedin","listing-orcid","listing-github","listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended","listing-description"],
+      searchColumns: ["listing-website","listing-scholar","listing-bluesky","listing-linkedin","listing-orcid","listing-github","listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-projects","listing-started","listing-ended","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -225,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-projects","listing-started","listing-ended"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -253,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended","listing-projects"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -359,6 +359,10 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
@@ -440,6 +444,7 @@ window.Quarto = {
              <li><i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0001-9369-5769">ORCID</a></li> 
           </ul>
         </div>
+        
       </div>
     </div>
   </div>
@@ -482,6 +487,7 @@ window.Quarto = {
              <li><i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0003-4973-4032">ORCID</a></li> 
           </ul>
         </div>
+        
       </div>
     </div>
   </div>
@@ -516,6 +522,18 @@ window.Quarto = {
             
           </ul>
         </div>
+        
+        <div class="listing-description">
+          <ul>
+            <li><b>Projects</b></li>
+            
+              <li><a href="./projects.html#sunny-day"> Sunny Day</a></li>
+            
+              <li><a href="./projects.html#migration"> Migration</a></li>
+            
+          </ul>
+        </div>
+        
       </div>
     </div>
   </div>
@@ -564,6 +582,16 @@ window.Quarto = {
              <li><i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0001-5751-9733">ORCID</a></li> 
           </ul>
         </div>
+        
+        <div class="listing-description">
+          <ul>
+            <li><b>Projects</b></li>
+            
+              <li><a href="./projects.html#sunny-day"> Sunny Day</a></li>
+            
+          </ul>
+        </div>
+        
       </div>
     </div>
   </div>
@@ -598,6 +626,7 @@ window.Quarto = {
             
           </ul>
         </div>
+        
       </div>
     </div>
   </div>
@@ -632,6 +661,16 @@ window.Quarto = {
              <li><i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0003-3014-6513">ORCID</a></li> 
           </ul>
         </div>
+        
+        <div class="listing-description">
+          <ul>
+            <li><b>Projects</b></li>
+            
+              <li><a href="./projects.html#migration"> Migration</a></li>
+            
+          </ul>
+        </div>
+        
       </div>
     </div>
   </div>

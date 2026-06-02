@@ -1,0 +1,181 @@
+---
+title: "Projects"
+description-meta: "Ongoing research projects on chronic hazards, migration, and insurance."
+draft-mode: unlinked
+page-navigation: false
+title-block-banner: false
+toc: false
+format:
+  html: 
+    grid:
+        body-width: 600px
+        margin-width: 450px
+
+date-format: "YYYY"
+listing: 
+  - id: people-suds
+    sort: "name"
+    feed: false
+    contents: 
+        - people/affiliate.yml
+        - people/grad-student.yml
+        - people/staff.yml
+        - people/undergrad-student.yml
+        - people/postdoc.yml
+    template: ul-people.ejs.md
+    include:
+        projects: Sunny Day
+
+  - id: pubs-suds
+    sort: "date desc"
+    max-items: 5
+    fields: [title, date, subtitle]
+    field-display-names: 
+      title: Title
+      date: Year
+      subtitle: Journal
+    include:
+        projects: Sunny Day
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    contents: publications.yml
+    template: ul-pubs.ejs.md
+
+  - id: people-migr
+    sort: "name"
+    feed: false
+    contents: 
+        - people/affiliate.yml
+        - people/grad-student.yml
+        - people/staff.yml
+        - people/undergrad-student.yml
+        - people/postdoc.yml
+    template: ul-people.ejs.md
+    include:
+        projects: Migration
+
+  - id: pubs-migr
+    sort: "date desc"
+    max-items: 5
+    fields: [title, date, subtitle]
+    field-display-names: 
+      title: Title
+      date: Year
+      subtitle: Journal
+    include:
+        projects: Migration
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    contents: publications.yml
+    template: ul-pubs.ejs.md
+
+  - id: people-insu
+    sort: "name"
+    feed: false
+    contents: 
+        - people/affiliate.yml
+        - people/grad-student.yml
+        - people/staff.yml
+        - people/undergrad-student.yml
+        - people/postdoc.yml
+    template: ul-people.ejs.md
+    include:
+        projects: Insurance
+
+  - id: pubs-insu
+    sort: "date desc"
+    max-items: 5
+    fields: [title, date, subtitle]
+    field-display-names: 
+      title: Title
+      date: Year
+      subtitle: Journal
+    include:
+        projects: Insurance
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    contents: publications.yml
+    template: ul-pubs.ejs.md
+
+filters: [remove-stray-divfence.lua]
+---
+
+## Sunny Day Flooding Project {#sunny-day}
+
+:::{.column-margin}
+![Sunny day flooding in Carolina Beach, NC](files/images/suds.webp)
+:::
+
+As local sea-level rise, land subsidence, and development continue to increase in coastal areas, so does the frequency of flooding.
+
+The tidal cycle now takes place on higher average sea levels, resulting in “sunny day” flooding of roadways during high tides. Sea water also infiltrates stormwater drainage systems at normal tidal levels, such that ordinary rainstorms lead to flooding. While these minor floods draw less attention than catastrophic storms, their high frequency imposes a chronic stress on coastal communities and economies by disrupting critical infrastructure services.
+
+[Learn more →](https://sunnydayflooding.com/)
+
+
+::: {.columns}
+
+::: {.column width='40%'}
+### Team members
+:::{#people-suds}
+:::
+:::
+
+::: {.column width='60%'}
+### Recent Research
+:::{#pubs-suds}
+:::
+:::
+
+:::
+
+
+## Coastal Migration {#migration}
+
+<!-- ![Sunny day flooding in Carolina Beach, NC](files/images/suds.webp) -->
+
+Who's moving towards and away from coastal hazards?
+
+::: {.columns}
+
+::: {.column width='40%'}
+### Team members
+:::{#people-migr}
+:::
+:::
+
+::: {.column width='60%'}
+### Recent Research
+:::{#pubs-migr}
+:::
+:::
+
+:::
+
+
+
+# Flood Insurance {#insurance}
+
+<!-- ![Sunny day flooding in Carolina Beach, NC](files/images/suds.webp) -->
+
+::: {.columns}
+
+::: {.column width='40%'}
+### Team members
+:::{#people-insu}
+:::
+:::
+
+::: {.column width='60%'}
+### Recent Research
+:::{#pubs-insu}
+:::
+:::
+
+:::

@@ -30,6 +30,16 @@
             <% if(item.orcid) { %> <li><i class="ai ai-orcid"></i> <a href="<%= item.orcid %>">ORCID</a></li> <% } %>
           </ul>
         </div>
+        <% if (item.projects) {%>
+        <div class="listing-description">
+          <ul>
+            <li><b>Projects</b></li>
+            <% for (proj in item.projects) {%>
+              <li><a href="projects.qmd#<%= item.projects[proj].toLowerCase().replace(/\s+/g, '-') %>"> <%= item.projects[proj] %></a></li>
+            <% } %>
+          </ul>
+        </div>
+        <% } %>
       </div>
     </div>
   </div>

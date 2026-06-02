@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Miyuki Hino">
-<meta name="description" content="We study impacts of and responses to extreme weather, natural hazards, and climate change in North Carolina and across the United States.">
+<meta name="description" content="Hino Lab at UNC">
 
-<title>Hino Lab at UNC Chapel Hill – Hino Lab at UNC</title>
+<title>ul-people.ejs – Hino Lab at UNC</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,12 +35,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -72,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-date","listing-doi","listing-categories","listing-projects"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
 <script type="text/javascript">
@@ -131,49 +101,17 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="index.css">
-<meta property="og:title" content="Hino Lab at UNC Chapel Hill – Hino Lab at UNC">
-<meta property="og:description" content="We study impacts of and responses to climate-driven hazards">
-<meta property="og:image" content="https://hino-lab-unc.github.io/files/images/bg.jpeg">
+<meta property="og:title" content="Hino Lab at UNC">
+<meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Hino Lab at UNC">
-<meta name="twitter:title" content="Hino Lab at UNC Chapel Hill – Hino Lab at UNC">
-<meta name="twitter:description" content="We study impacts of and responses to climate-driven hazards">
-<meta name="twitter:image" content="https://hino-lab-unc.github.io/files/images/bg.jpeg">
+<meta name="twitter:title" content="Hino Lab at UNC">
+<meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -217,72 +155,34 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="quarto-about-marquee">
-  <div class="about-image-container">
-    <img src="files/images/bg.jpeg" class="about-image " style="width: 0%;">
-  </div>
-  <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Hino Lab at UNC Chapel Hill</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div id="hero-heading">
-<p>We map populations, engage communities, and identify policy gaps to understand climate-driven hazards in North Carolina and beyond.</p>
-<p>We strive towards a less risky world.</p>
-</div> 
-  </div>
-</div>
-
-<section id="whats-new" class="level3">
-<h3 data-anchor-id="whats-new">What’s new</h3>
-<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Y2hyb25pYyUyMGZsb29kaW5nJTJDZXZlbnRzJTJDZGF0YSUyQ3NlbnNvcnMlMkNOb3J0aCUyMENhcm9saW5h" data-listing-date-sort="1748750400000">
-<a href="https://www.nature.com/articles/s43247-025-02326-w" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Land-based sensors reveal high frequency of coastal flooding
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="bW9kZWwlMkNldmVudHMlMkNkYXRhJTJDcmVwZXRpdGl2ZSUyMGZsb29kaW5nJTJDTm9ydGglMjBDYXJvbGluYQ==" data-listing-date-sort="1735707600000">
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006026" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA
-</h5>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<!-- ### Opportunities -->
-<br>
-<p class="more">
-<a href="./projects.html">Projects</a> <a href="./research.html">Research</a> <a href="./people.html">People</a> <a href="https://www.miyukihino.com/opportunities">Opportunities →</a>
-</p>
+<div class="quarto-listing-ul list">
+<ul>
+&lt;% for (const item of items) { %&gt;
+  <li><a href="./people.html#<%= item.title.toLowerCase().replace(/\s+/g, '-') %>"> &lt;%= item.title %&gt;</a></li>
+&lt;% } %&gt;
+</ul>
 
 
 
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
