@@ -5,6 +5,7 @@
       lastname: "Kwass"
       subtitle: "Research Analyst"
       categories: [Staff]
+      projects: [Sunny Day, Migration]
       description: |
         Department of City and Regional Planning
 

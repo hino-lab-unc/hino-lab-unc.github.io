@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Miyuki Hino">
-<meta name="description" content="We study impacts of and responses to extreme weather, natural hazards, and climate change in North Carolina and across the United States.">
+<meta name="description" content="Ongoing research projects on chronic hazards, migration, and insurance.">
 
-<title>Hino Lab at UNC Chapel Hill – Hino Lab at UNC</title>
+<title>Projects – Hino Lab at UNC</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -41,11 +41,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-77e5b62c0f9b6a1bf2751da50a6b9e29.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-00f7d5d1779c6f5aebc811ef95286812.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,20 +76,160 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
+    const listingTargetEl = window.document.querySelector('#listing-people-suds .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-website','listing-scholar','listing-bluesky','listing-linkedin','listing-orcid','listing-github','listing-image','listing-title','listing-lastname','listing-subtitle','listing-categories','listing-projects','listing-started','listing-ended','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-website","listing-scholar","listing-bluesky","listing-linkedin","listing-orcid","listing-github","listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-projects","listing-started","listing-ended","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-people-suds'] = new List('listing-people-suds', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs-suds .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-date","listing-doi","listing-categories","listing-projects"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
+    window['quarto-listings']['listing-pubs-suds'] = new List('listing-pubs-suds', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-people-migr .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-lastname','listing-subtitle','listing-categories','listing-projects','listing-started','listing-ended','listing-linkedin','listing-orcid','listing-github','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-projects","listing-started","listing-ended","listing-linkedin","listing-orcid","listing-github","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-people-migr'] = new List('listing-people-migr', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs-migr .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-subtitle',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs-migr'] = new List('listing-pubs-migr', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-people-insu .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-lastname','listing-subtitle','listing-categories','listing-projects','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-projects","listing-started","listing-ended"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-people-insu'] = new List('listing-people-insu', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs-insu .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-subtitle',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs-insu'] = new List('listing-pubs-insu', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -162,18 +303,17 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="index.css">
-<meta property="og:title" content="Hino Lab at UNC Chapel Hill – Hino Lab at UNC">
+<meta property="og:title" content="Projects – Hino Lab at UNC">
 <meta property="og:description" content="We study impacts of and responses to climate-driven hazards">
-<meta property="og:image" content="https://hino-lab-unc.github.io/files/images/bg.jpeg">
+<meta property="og:image" content="https://hino-lab-unc.github.io/files/images/suds.webp">
 <meta property="og:site_name" content="Hino Lab at UNC">
-<meta name="twitter:title" content="Hino Lab at UNC Chapel Hill – Hino Lab at UNC">
+<meta name="twitter:title" content="Projects – Hino Lab at UNC">
 <meta name="twitter:description" content="We study impacts of and responses to climate-driven hazards">
-<meta name="twitter:image" content="https://hino-lab-unc.github.io/files/images/bg.jpeg">
+<meta name="twitter:image" content="https://hino-lab-unc.github.io/files/images/suds.webp">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -191,7 +331,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -217,72 +357,305 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-marquee">
-  <div class="about-image-container">
-    <img src="files/images/bg.jpeg" class="about-image " style="width: 0%;">
-  </div>
-  <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hino Lab at UNC Chapel Hill</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div id="hero-heading">
-<p>We map populations, engage communities, and identify policy gaps to understand climate-driven hazards in North Carolina and beyond.</p>
-<p>We strive towards a less risky world.</p>
-</div> 
-  </div>
+<h1 class="title">Projects</h1>
 </div>
 
-<section id="whats-new" class="level3">
-<h3 data-anchor-id="whats-new">What’s new</h3>
-<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Y2hyb25pYyUyMGZsb29kaW5nJTJDZXZlbnRzJTJDZGF0YSUyQ3NlbnNvcnMlMkNOb3J0aCUyMENhcm9saW5h" data-listing-date-sort="1748750400000">
-<a href="https://www.nature.com/articles/s43247-025-02326-w" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Land-based sensors reveal high frequency of coastal flooding
-</h5>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="sunny-day" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="sunny-day">Sunny Day Flooding Project</h2>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/images/suds.webp" class="img-fluid figure-img"></p>
+<figcaption>Sunny day flooding in Carolina Beach, NC</figcaption>
+</figure>
 </div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="bW9kZWwlMkNldmVudHMlMkNkYXRhJTJDcmVwZXRpdGl2ZSUyMGZsb29kaW5nJTJDTm9ydGglMjBDYXJvbGluYQ==" data-listing-date-sort="1735707600000">
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006026" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA
-</h5>
-</div>
-</div></a>
-</div>
-</div>
+</div></div><p>As local sea-level rise, land subsidence, and development continue to increase in coastal areas, so does the frequency of flooding.</p>
+<p>The tidal cycle now takes place on higher average sea levels, resulting in “sunny day” flooding of roadways during high tides. Sea water also infiltrates stormwater drainage systems at normal tidal levels, such that ordinary rainstorms lead to flooding. While these minor floods draw less attention than catastrophic storms, their high frequency imposes a chronic stress on coastal communities and economies by disrupting critical infrastructure services.</p>
+<p><a href="https://sunnydayflooding.com/">Learn more →</a></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<section id="team-members" class="level3">
+<h3 class="anchored" data-anchor-id="team-members">Team members</h3>
+<div id="listing-people-suds" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#james-collins"> James Collins</a></li>
+
+  <li><a href="./people.html#isabel-kwass-mason"> Isabel Kwass-Mason</a></li>
+
+</ul>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<!-- ### Opportunities -->
-<br>
-<p class="more">
-<a href="./projects.html">Projects</a> <a href="./research.html">Research</a> <a href="./people.html">People</a> <a href="https://www.miyukihino.com/opportunities">Opportunities →</a>
-</p>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLXN1ZHM=">
+<div class="quarto-listing-ul list">
+<ul>
 
+  <li><a href="https://www.nature.com/articles/s43247-025-02326-w"> Land-based sensors reveal high frequency of coastal flooding</a></li>
 
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtbWlncg==">
+<div class="quarto-listing-ul list">
+<ul>
 
+  <li><a href="./people.html#abhishek-bhatia"> Abhishek Bhatia</a></li>
+
+  <li><a href="./people.html#ruitian-yan"> Ruitian Yan</a></li>
+
+  <li><a href="./people.html#isabel-kwass-mason"> Isabel Kwass-Mason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLW1pZ3I=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtaW5zdQ==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#kieran-fitzmason"> Kieran Fitzmason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLWluc3U=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+
+</div></div></div></div></div>
+</section>
+</div><div class="column" style="width:60%;">
+<section id="recent-research" class="level3">
+<h3 class="anchored" data-anchor-id="recent-research">Recent Research</h3>
+<div id="listing-pubs-suds" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="https://www.nature.com/articles/s43247-025-02326-w"> Land-based sensors reveal high frequency of coastal flooding</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtbWlncg==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#abhishek-bhatia"> Abhishek Bhatia</a></li>
+
+  <li><a href="./people.html#ruitian-yan"> Ruitian Yan</a></li>
+
+  <li><a href="./people.html#isabel-kwass-mason"> Isabel Kwass-Mason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLW1pZ3I=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtaW5zdQ==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#kieran-fitzmason"> Kieran Fitzmason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLWluc3U=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlZGVzYw==">We study impacts of and responses to climate-driven hazards</span></p>
+</div>
+</div></div></div></div>
+</section>
+</div>
+</div>
+</section>
+<section id="migration" class="level2">
+<h2 class="anchored" data-anchor-id="migration">Coastal Migration</h2>
+<!-- ![Sunny day flooding in Carolina Beach, NC](files/images/suds.webp) -->
+<p>Who’s moving towards and away from coastal hazards?</p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<section id="team-members-1" class="level3">
+<h3 class="anchored" data-anchor-id="team-members-1">Team members</h3>
+<div id="listing-people-migr" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#abhishek-bhatia"> Abhishek Bhatia</a></li>
+
+  <li><a href="./people.html#ruitian-yan"> Ruitian Yan</a></li>
+
+  <li><a href="./people.html#isabel-kwass-mason"> Isabel Kwass-Mason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLW1pZ3I=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtaW5zdQ==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#kieran-fitzmason"> Kieran Fitzmason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLWluc3U=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlZGVzYw==">We study impacts of and responses to climate-driven hazards</span></p>
+</div>
+</div></div></div>
+</section>
+</div><div class="column" style="width:60%;">
+<section id="recent-research-1" class="level3">
+<h3 class="anchored" data-anchor-id="recent-research-1">Recent Research</h3>
+<div id="listing-pubs-migr" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtaW5zdQ==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#kieran-fitzmason"> Kieran Fitzmason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLWluc3U=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlZGVzYw==">We study impacts of and responses to climate-driven hazards</span></p>
+</div>
+</div></div>
+</section>
+</div>
+</div>
+</section>
+<section id="insurance" class="level1">
+<h1>Flood Insurance</h1>
+<!-- ![Sunny day flooding in Carolina Beach, NC](files/images/suds.webp) -->
+<div class="columns">
+<div class="column" style="width:40%;">
+<section id="team-members-2" class="level3">
+<h3 class="anchored" data-anchor-id="team-members-2">Team members</h3>
+<div id="listing-people-insu" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#kieran-fitzmason"> Kieran Fitzmason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLWluc3U=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlZGVzYw==">We study impacts of and responses to climate-driven hazards</span></p>
+</div>
+</div>
+</section>
+</div><div class="column" style="width:60%;">
+<section id="recent-research-2" class="level3">
+<h3 class="anchored" data-anchor-id="recent-research-2">Recent Research</h3>
+<div id="listing-pubs-insu" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+</section>
+</div>
+</div>
 
 </section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

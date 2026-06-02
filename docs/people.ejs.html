@@ -129,6 +129,10 @@ https://badge.dimensions.ai/
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
@@ -191,6 +195,16 @@ https://badge.dimensions.ai/
             &lt;% if(item.orcid) { %&gt; <li><i class="ai ai-orcid"></i> <a href="<%= item.orcid %>">ORCID</a></li> &lt;% } %&gt;
           </ul>
         </div>
+        &lt;% if (item.projects) {%&gt;
+        <div class="listing-description">
+          <ul>
+            <li><b>Projects</b></li>
+            &lt;% for (proj in item.projects) {%&gt;
+              <li><a href="./projects.html#<%= item.projects[proj].toLowerCase().replace(/\s+/g, '-') %>"> &lt;%= item.projects[proj] %&gt;</a></li>
+            &lt;% } %&gt;
+          </ul>
+        </div>
+        &lt;% } %&gt;
       </div>
     </div>
   </div>

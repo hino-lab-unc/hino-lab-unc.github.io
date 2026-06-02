@@ -8,7 +8,8 @@
       title: "James Collins"
       lastname: "Collins"
       subtitle: "PhD Candidate"
-      categories: [PhD Student] 
+      categories: [PhD Student]
+      projects: [Sunny Day]
       started: "2023"
       ended: "2028"
       description: |
@@ -25,6 +26,7 @@
       description: |
         Ruitian is in the Environment, Ecology, and Energy Program (E3P) at UNC-Chapel Hill. Co-advised by Dr. Hino and Dr. Antonia Sebastian, Ruitian is interested in studying the social and financial impacts of flooding on housing. Prior to joining UNC, she worked in the financial sector on Environmental, Social, and Governance (ESG) and climate risk management. She received her bachelor’s degree in Environmental Science from Brown University.
       categories: [PhD Student]
+      projects: [Migration]
       started: "2023"
       ended: "2028"
 

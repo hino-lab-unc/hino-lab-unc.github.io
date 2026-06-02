@@ -82,6 +82,7 @@ We strive towards a less risky world.
 
 <br>
 <p class="more">
+  [Projects](projects.qmd)
   [Research](research.qmd)
   [People](people.qmd)
   [Opportunities →](https://www.miyukihino.com/opportunities)
