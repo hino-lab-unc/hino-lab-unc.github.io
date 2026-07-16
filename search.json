@@ -1,7 +1,21 @@
 [
   {
-    "objectID": "ul-people.ejs.html",
-    "href": "ul-people.ejs.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hino Lab at UNC Chapel Hill",
+    "section": "",
+    "text": "We map populations, engage communities, and identify policy gaps to understand climate-driven hazards in North Carolina and beyond.\nWe strive towards a less risky world.\n \n  \n\n\n\nWhat’s new\n\n\n\n\n\n\n\nLand-based sensors reveal high frequency of coastal flooding\n\n\n\n\n\n\n\n\n\nReconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA\n\n\n\n\n\nNo matching items\n\n\n\n\nProjects Research People Opportunities →"
+  },
+  {
+    "objectID": "people.ejs.html",
+    "href": "people.ejs.html",
+    "title": "Hino Lab at UNC",
+    "section": "",
+    "text": "&lt;% for (const item of items) { %&gt;\n  \n    \n      \n    \n    \n      &lt;%= item.title %&gt;\n    \n      \n        &lt;%= item.subtitle %&gt;\n      \n\n      \n        &lt;%= item.description %&gt;\n      \n    \n    \n      \n         \n         \n        \n          \n            &lt;% if(item.website) { %&gt;  Website &lt;% } %&gt;\n            &lt;% if(item.scholar) { %&gt;  Scholar &lt;% } %&gt;\n            &lt;% if(item.linkedin) { %&gt;  LinkedIn &lt;% } %&gt;\n            &lt;% if(item.bluesky) { %&gt;  Bluesky &lt;% } %&gt;\n            &lt;% if(item.github) { %&gt;  GitHub &lt;% } %&gt;\n            &lt;% if(item.orcid) { %&gt;  ORCID &lt;% } %&gt;\n          \n        \n        &lt;% if (item.projects) {%&gt;\n        \n          \n            Projects\n            &lt;% for (proj in item.projects) {%&gt;\n               &lt;%= item.projects[proj] %&gt;\n            &lt;% } %&gt;\n          \n        \n        &lt;% } %&gt;\n      \n    \n  \n&lt;% } %&gt;"
+  },
+  {
+    "objectID": "ul-pubs.ejs.html",
+    "href": "ul-pubs.ejs.html",
     "title": "Hino Lab at UNC",
     "section": "",
     "text": "&lt;% for (const item of items) { %&gt;\n   &lt;%= item.title %&gt;\n&lt;% } %&gt;"
@@ -70,13 +84,6 @@
     "text": "Coastal Migration\n\nWho’s moving towards and away from coastal hazards?\n\n\n\nTeam members\n\n\n\n\n   Abhishek Bhatia\n\n   Ruitian Yan\n\n   Isabel Kwass-Mason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   Kieran Fitzmason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\nProjects – Hino Lab at UNC Projects – Hino Lab at UNC Projects – Hino Lab at UNC Hino Lab at UNC We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards\n\n\n\n\n\nRecent Research\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   Kieran Fitzmason\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\nProjects – Hino Lab at UNC Projects – Hino Lab at UNC Projects – Hino Lab at UNC Hino Lab at UNC We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards We study impacts of and responses to climate-driven hazards"
   },
   {
-    "objectID": "people.ejs.html",
-    "href": "people.ejs.html",
-    "title": "Hino Lab at UNC",
-    "section": "",
-    "text": "&lt;% for (const item of items) { %&gt;\n  \n    \n      \n    \n    \n      &lt;%= item.title %&gt;\n    \n      \n        &lt;%= item.subtitle %&gt;\n      \n\n      \n        &lt;%= item.description %&gt;\n      \n    \n    \n      \n         \n         \n        \n          \n            &lt;% if(item.website) { %&gt;  Website &lt;% } %&gt;\n            &lt;% if(item.scholar) { %&gt;  Scholar &lt;% } %&gt;\n            &lt;% if(item.linkedin) { %&gt;  LinkedIn &lt;% } %&gt;\n            &lt;% if(item.bluesky) { %&gt;  Bluesky &lt;% } %&gt;\n            &lt;% if(item.github) { %&gt;  GitHub &lt;% } %&gt;\n            &lt;% if(item.orcid) { %&gt;  ORCID &lt;% } %&gt;\n          \n        \n        &lt;% if (item.projects) {%&gt;\n        \n          \n            Projects\n            &lt;% for (proj in item.projects) {%&gt;\n               &lt;%= item.projects[proj] %&gt;\n            &lt;% } %&gt;\n          \n        \n        &lt;% } %&gt;\n      \n    \n  \n&lt;% } %&gt;"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -84,15 +91,8 @@
     "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nLand-based sensors reveal high frequency of coastal flooding\n\n\nNature Communications Earth & Environment\n\n\n\n\n\n2025\n\n\nHino, Miyuki and Anarde, Katherine and Fridell, Tessa and McCune, Ryan and Thelen, Thomas and Farquhar, Elizabeth and Woodard, Perri and Whipple, Anthony\n\n\n\n\n\n\n\nReconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA\n\n\nEarth’s Future\n\n\n\n\n\n2025\n\n\nGarcia, Helena M. and Sebastian, Antonia and Fitzmaurice, Kieran P. and Hino, Miyuki and Collins, Elyssa L. and Characklis, Gregory W.\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hino Lab at UNC Chapel Hill",
-    "section": "",
-    "text": "We map populations, engage communities, and identify policy gaps to understand climate-driven hazards in North Carolina and beyond.\nWe strive towards a less risky world.\n \n  \n\n\n\nWhat’s new\n\n\n\n\n\n\n\nLand-based sensors reveal high frequency of coastal flooding\n\n\n\n\n\n\n\n\n\nReconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA\n\n\n\n\n\nNo matching items\n\n\n\n\nProjects Research People Opportunities →"
-  },
-  {
-    "objectID": "ul-pubs.ejs.html",
-    "href": "ul-pubs.ejs.html",
+    "objectID": "ul-people.ejs.html",
+    "href": "ul-people.ejs.html",
     "title": "Hino Lab at UNC",
     "section": "",
     "text": "&lt;% for (const item of items) { %&gt;\n   &lt;%= item.title %&gt;\n&lt;% } %&gt;"
