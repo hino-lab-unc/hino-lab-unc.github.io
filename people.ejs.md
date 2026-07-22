@@ -34,7 +34,7 @@
         <div class="listing-description">
           <ul>
             <li><b>Projects</b></li>
-            <% for (proj in item.projects) {%>
+            <% for (proj in item.projects.sort()) {%>
               <li><a href="projects.qmd#<%= item.projects[proj].toLowerCase().replace(/\s+/g, '-') %>"> <%= item.projects[proj] %></a></li>
             <% } %>
           </ul>
