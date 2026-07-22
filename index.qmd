@@ -67,9 +67,9 @@ css: index.css
 
 :::{#hero-heading}
 
-We map populations, engage communities, and identify policy gaps to understand climate-driven hazards in North Carolina and beyond.
+We study how climate risks shape society and how communities respond to a changing environments. 
 
-We strive towards a less risky world.
+Our research informs evidence-based policies and governance that build resilience for all.
 
 :::
 
