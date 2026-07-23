@@ -4,6 +4,9 @@
   <div class="quarto-post image-left">
     <div class="thumbnail">
       <img loading="lazy" src="<%= item.image %>" class="thumbnail-image" style="height: 400px;">
+      <% if (item.imagecredit) {%>
+        <small>Credit: <%= item.imagecredit %></small>
+      <% }%>
     </div>
     <div class="body">
       <h3 class="listing-title"><%= item.title %></h3>
