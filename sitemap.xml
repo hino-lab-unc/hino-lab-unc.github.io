@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hino-lab-unc.github.io/projects.html</loc>
-    <lastmod>2026-07-23T18:11:02.589Z</lastmod>
+    <loc>https://hino-lab-unc.github.io/news.html</loc>
+    <lastmod>2026-07-23T18:14:23.064Z</lastmod>
   </url>
   <url>
     <loc>https://hino-lab-unc.github.io/ul-people.ejs.html</loc>
-    <lastmod>2026-07-23T18:11:02.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hino-lab-unc.github.io/ul-pubs.ejs.html</loc>
-    <lastmod>2026-07-23T18:11:02.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hino-lab-unc.github.io/people.ejs.html</loc>
-    <lastmod>2026-07-23T18:11:02.587Z</lastmod>
+    <lastmod>2026-07-23T18:14:23.065Z</lastmod>
   </url>
   <url>
     <loc>https://hino-lab-unc.github.io/publications.html</loc>
-    <lastmod>2026-07-23T18:11:02.589Z</lastmod>
+    <lastmod>2026-07-23T18:14:23.065Z</lastmod>
   </url>
   <url>
-    <loc>https://hino-lab-unc.github.io/news.html</loc>
-    <lastmod>2026-07-23T18:11:02.587Z</lastmod>
+    <loc>https://hino-lab-unc.github.io/projects.html</loc>
+    <lastmod>2026-07-23T18:14:23.065Z</lastmod>
   </url>
   <url>
     <loc>https://hino-lab-unc.github.io/people.html</loc>
-    <lastmod>2026-07-23T18:11:02.587Z</lastmod>
+    <lastmod>2026-07-23T18:14:23.064Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hino-lab-unc.github.io/ul-pubs.ejs.html</loc>
+    <lastmod>2026-07-23T18:14:23.065Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hino-lab-unc.github.io/people.ejs.html</loc>
+    <lastmod>2026-07-23T18:14:23.064Z</lastmod>
   </url>
   <url>
     <loc>https://hino-lab-unc.github.io/index.html</loc>
-    <lastmod>2026-07-23T18:11:02.587Z</lastmod>
+    <lastmod>2026-07-23T18:14:23.063Z</lastmod>
   </url>
 </urlset>
