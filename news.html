@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Miyuki Hino">
-<meta name="description" content="New publications from the Hino Lab at UNC.">
+<meta name="description" content="Hino lab news and research updates.">
 
-<title>Research – Hino Lab at UNC</title>
+<title>News – Hino Lab at UNC</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9df14645c15abc661633ff3d5a605ac7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-753141eee1b0038642ca02ccad18552e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    const listingTargetEl = window.document.querySelector('#listing-news .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-date','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-authors','listing-date','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-date","listing-doi","listing-categories","listing-projects"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+    window['quarto-listings']['listing-news'] = new List('listing-news', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -163,10 +163,10 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Hino Lab at UNC" href="research.xml" data-external="1"><meta property="og:title" content="Research – Hino Lab at UNC">
+<link rel="alternate" type="application/rss+xml" title="Hino Lab at UNC" href="news.xml" data-external="1"><meta property="og:title" content="News – Hino Lab at UNC">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Hino Lab at UNC">
-<meta name="twitter:title" content="Research – Hino Lab at UNC">
+<meta name="twitter:title" content="News – Hino Lab at UNC">
 <meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -189,12 +189,16 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link active" href="./news.html" aria-current="page"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
@@ -217,13 +221,13 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2hyb25pYyUyMGZsb29kaW5n">chronic flooding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YQ==">data <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZXZlbnRz">events <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bW9kZWw=">model <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tm9ydGglMjBDYXJvbGluYQ==">North Carolina <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmVwZXRpdGl2ZSUyMGZsb29kaW5n">repetitive flooding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2Vuc29ycw==">sensors <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">News</h1>
 </div>
 
 
@@ -240,11 +244,16 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-default">
+<!-- :::{#news} ::: -->
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-news">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-pubs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-pubs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+    <select id="listing-news-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-news'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
       <option value="listing-title" data-direction="asc">
@@ -264,54 +273,10 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y2hyb25pYyUyMGZsb29kaW5nJTJDZXZlbnRzJTJDZGF0YSUyQ3NlbnNvcnMlMkNOb3J0aCUyMENhcm9saW5h" data-listing-date-sort="1748736000000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://www.nature.com/articles/s43247-025-02326-w" class="no-external">Land-based sensors reveal high frequency of coastal flooding</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://www.nature.com/articles/s43247-025-02326-w" class="no-external">Nature Communications Earth &amp; Environment</a>
-</div>
-</div>
-<div class="metadata">
-<a href="https://www.nature.com/articles/s43247-025-02326-w" class="no-external">
-<div class="listing-date">
-2025
-</div>
-<div class="metadata-value listing-authors">
-Hino, Miyuki and Anarde, Katherine and Fridell, Tessa and McCune, Ryan and Thelen, Thomas and Farquhar, Elizabeth and Woodard, Perri and Whipple, Anthony
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bW9kZWwlMkNldmVudHMlMkNkYXRhJTJDcmVwZXRpdGl2ZSUyMGZsb29kaW5nJTJDTm9ydGglMjBDYXJvbGluYQ==" data-listing-date-sort="1735689600000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006026" class="no-external">Reconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006026" class="no-external">Earth’s Future</a>
-</div>
-</div>
-<div class="metadata">
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006026" class="no-external">
-<div class="listing-date">
-2025
-</div>
-<div class="metadata-value listing-authors">
-Garcia, Helena M. and Sebastian, Antonia and Fitzmaurice, Kieran P. and Hino, Miyuki and Collins, Elyssa L. and Characklis, Gregory W.
-</div>
-</a>
-</div>
-</div>
+
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div>
-
-
-
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

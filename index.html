@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9df14645c15abc661633ff3d5a605ac7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-753141eee1b0038642ca02ccad18552e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,9 +82,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-date","listing-doi","listing-categories","listing-projects"],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-date","listing-doi","listing-categories","listing-projects","listing-shorttitle","listing-institution","listing-publisher","listing-file"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -191,12 +192,16 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
@@ -236,8 +241,8 @@ window.Quarto = {
 <div class="quarto-title-meta">
   </div>
 </header> <div id="hero-heading">
-<p>We map populations, engage communities, and identify policy gaps to understand climate-driven hazards in North Carolina and beyond.</p>
-<p>We strive towards a less risky world.</p>
+<p>We study how climate risks shape society and how communities respond to a changing environments.</p>
+<p>Our research informs evidence-based policies and governance that build resilience for all.</p>
 </div> 
   </div>
 </div>
@@ -246,33 +251,61 @@ window.Quarto = {
 <h3 data-anchor-id="whats-new">What’s new</h3>
 <div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Y2hyb25pYyUyMGZsb29kaW5nJTJDZXZlbnRzJTJDZGF0YSUyQ3NlbnNvcnMlMkNOb3J0aCUyMENhcm9saW5h" data-listing-date-sort="1748736000000">
-<a href="https://www.nature.com/articles/s43247-025-02326-w" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1793404800000">
+<a href="https://aacrjournals.org/cebp/article/doi/10.1158/1055-9965.EPI-25-1664/785324" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Land-based sensors reveal high frequency of coastal flooding
+Impacts of Hurricane-Related Flooding on Time to Initial Cancer-Directed Treatment in North Carolina
 </h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 31, 2026
+</div>
+</div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="bW9kZWwlMkNldmVudHMlMkNkYXRhJTJDcmVwZXRpdGl2ZSUyMGZsb29kaW5nJTJDTm9ydGglMjBDYXJvbGluYQ==" data-listing-date-sort="1735689600000">
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006026" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1793404800000">
+<a href="https://www.sciencedirect.com/science/article/pii/S0301421525004185" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Reconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA
+Weatherization Reduces Needs for Energy Bill Assistance
 </h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 31, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="ZWNvbm9taWNzJTJDYWRhcHRhdGlvbg==" data-listing-date-sort="1770854400000">
+<a href="https://www.science.org/doi/10.1126/science.aea7431" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Using Markets to Adapt to Climate Change
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Feb 12, 2026
+</div>
+</div>
 </div>
 </div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<p class="more-news">
+<a href="./news.html">More news</a> <a href="./news.html">More publications</a>
+</p>
 <!-- ### Opportunities -->
-<br>
+<br><br>
 <p class="more">
-<a href="./projects.html">Projects</a> <a href="./research.html">Research</a> <a href="./people.html">People</a> <a href="https://www.miyukihino.com/opportunities">Opportunities →</a>
+<a href="./projects.html">Projects</a> <a href="./people.html">People</a> <a href="https://www.miyukihino.com/opportunities">Opportunities →</a>
 </p>
 
 

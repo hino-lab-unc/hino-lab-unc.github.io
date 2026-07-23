@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Hino Lab at UNC</title>
+<link>https://hino-lab-unc.github.io/publications.html</link>
+<atom:link href="https://hino-lab-unc.github.io/publications.xml" rel="self" type="application/rss+xml"/>
+<description>We study impacts of and responses to climate-driven hazards</description>
+<image>
+<url>https://quarto.org/quarto.png</url>
+<title>Hino Lab at UNC</title>
+<link>https://hino-lab-unc.github.io/publications.html</link>
+</image>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Sat, 31 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Impacts of Hurricane-Related Flooding on Time to Initial Cancer-Directed Treatment in North Carolina</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Weatherization Reduces Needs for Energy Bill Assistance</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Using Markets to Adapt to Climate Change</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>economics</category>
+  <category>adaptation</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Characterizing Manufactured Home Parks in North Carolina: A Computer Vision Based Approach</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Reconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>model</category>
+  <category>events</category>
+  <category>data</category>
+  <category>repetitive flooding</category>
+  <category>North Carolina</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Fri, 31 Oct 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Divergent Priorities in Flood Adaptation</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Fri, 31 Oct 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Coastal Squeeze Reduces Nitrogen Removal Services Provided by Wetlands: Insights from an Interdisciplinary Framework</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Fri, 31 Oct 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Land-based sensors reveal high frequency of coastal flooding</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>chronic flooding</category>
+  <category>events</category>
+  <category>data</category>
+  <category>sensors</category>
+  <category>North Carolina</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Housing Amenity and Affordability Shape Floodplain Development</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Local Governments Avoid Floodplain Development through Consistent Implementation of Routine Municipal Ordinances, Plans, and Programs</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Wind and Rain Compound with Tides to Cause Frequent and Unexpected Coastal Floods</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A Nationwide Analysis of Community-Level Floodplain Development Outcomes and Key Influences</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>floodplain development</category>
+  <category>nationwide</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Fecal Bacteria Contamination of Floodwaters and a Coastal Waterway From Tidally-Driven Stormwater Network Inundation</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>chronic flooding</category>
+  <category>water quality</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Game, Sweat, Match: Temperature and Elite Worker Productivity</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>heat</category>
+  <category>productivity</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Assessing the Full Costs of Floodplain Buyouts</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>floodplain development</category>
+  <category>managed retreat</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Invalid Date</pubDate>
+</item>
+<item>
+  <title>Growing Safely or Building Risk?: Floodplain Management in North Carolina</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>floodplain development</category>
+  <category>North Carolina</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Fire Frequency and Vulnerability in California</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>wildfire</category>
+  <category>California</category>
+  <category>vulnerability</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Emissions Redistribution and Environmental Justice Implications of California’s Clean Vehicle Rebate Project</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Data From the Drain: A Sensor Framework That Captures Multiple Drivers of Chronic Coastal Floods</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <category>chronic flooding</category>
+  <category>sensors</category>
+  <category>data</category>
+  <category>North Carolina</category>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Sat, 01 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Insights from the Field: How North Carolina Local Government Climate Communications Compare to IPCC Guidelines</title>
+  <link>https://hino-lab-unc.github.io/</link>
+  <description></description>
+  <guid>https://hino-lab-unc.github.io/</guid>
+  <pubDate>Sat, 01 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

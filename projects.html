@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-436d763ac2f4d69a837a42bdd6816e63.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1b493b27dcef5970871aed59efb68379.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-website','listing-scholar','listing-bluesky','listing-linkedin','listing-orcid','listing-github','listing-image','listing-title','listing-lastname','listing-subtitle','listing-categories','listing-projects','listing-started','listing-ended','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-website','listing-scholar','listing-bluesky','listing-linkedin','listing-orcid','listing-github','listing-image','listing-imagecredit','listing-title','listing-lastname','listing-subtitle','listing-categories','listing-projects','listing-started','listing-ended','listing-description',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-website","listing-scholar","listing-bluesky","listing-linkedin","listing-orcid","listing-github","listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-projects","listing-started","listing-ended","listing-description"],
+      searchColumns: ["listing-website","listing-scholar","listing-bluesky","listing-linkedin","listing-orcid","listing-github","listing-image","listing-imagecredit","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-projects","listing-started","listing-ended","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -113,11 +113,67 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-date','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-date","listing-doi","listing-categories","listing-projects"],
+      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-date","listing-doi","listing-categories","listing-projects","listing-shorttitle","listing-publisher"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-pubs-suds'] = new List('listing-pubs-suds', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-people-risa .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-website','listing-scholar','listing-bluesky','listing-linkedin','listing-orcid','listing-github','listing-image','listing-imagecredit','listing-title','listing-lastname','listing-subtitle','listing-categories','listing-projects','listing-started','listing-ended','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-website","listing-scholar","listing-bluesky","listing-linkedin","listing-orcid","listing-github","listing-image","listing-imagecredit","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-projects","listing-started","listing-ended","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-people-risa'] = new List('listing-people-risa', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs-risa .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-date","listing-subtitle","listing-publisher","listing-projects"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs-risa'] = new List('listing-pubs-risa', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -305,11 +361,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Projects – Hino Lab at UNC">
 <meta property="og:description" content="We study impacts of and responses to climate-driven hazards">
-<meta property="og:image" content="https://hino-lab-unc.github.io/files/images/suds.webp">
+<meta property="og:image" content="https://hino-lab-unc.github.io/files/images/sunnyd.webp">
 <meta property="og:site_name" content="Hino Lab at UNC">
 <meta name="twitter:title" content="Projects – Hino Lab at UNC">
 <meta name="twitter:description" content="We study impacts of and responses to climate-driven hazards">
-<meta name="twitter:image" content="https://hino-lab-unc.github.io/files/images/suds.webp">
+<meta name="twitter:image" content="https://hino-lab-unc.github.io/files/images/sunnyd.webp">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -331,12 +387,16 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
@@ -385,13 +445,16 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="sunny-day">Sunny Day Flooding Project</h2>
 
 <div class="no-row-height column-margin column-container"><div class="">
+<p><img src="files/images/sunnyd.webp" class="img-fluid" style="width:75.0%"></p>
+</div><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="files/images/suds.webp" class="img-fluid figure-img"></p>
 <figcaption>Sunny day flooding in Carolina Beach, NC</figcaption>
 </figure>
 </div>
-</div></div><p>As local sea-level rise, land subsidence, and development continue to increase in coastal areas, so does the frequency of flooding.</p>
+</div></div>
+<p>As local sea-level rise, land subsidence, and development continue to increase in coastal areas, so does the frequency of flooding.</p>
 <p>The tidal cycle now takes place on higher average sea levels, resulting in “sunny day” flooding of roadways during high tides. Sea water also infiltrates stormwater drainage systems at normal tidal levels, such that ordinary rainstorms lead to flooding. While these minor floods draw less attention than catastrophic storms, their high frequency imposes a chronic stress on coastal communities and economies by disrupting critical infrastructure services.</p>
 <p><a href="https://sunnydayflooding.com/">Learn more →</a></p>
 <div class="columns">
@@ -414,6 +477,32 @@ window.Quarto = {
 <ul>
 
   <li><a href="https://www.nature.com/articles/s43247-025-02326-w"> Land-based sensors reveal high frequency of coastal flooding</a></li>
+
+  <li><a href="https://www.sciencedirect.com/science/article/pii/S0043135424012387"> Wind and Rain Compound with Tides to Cause Frequent and Unexpected Coastal Floods</a></li>
+
+  <li><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GH001020"> Fecal Bacteria Contamination of Floodwaters and a Coastal Waterway From Tidally-Driven Stormwater Network Inundation</a></li>
+
+  <li><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022WR032392"> Data From the Drain: A Sensor Framework That Captures Multiple Drivers of Chronic Coastal Floods</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtcmlzYQ==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#james-collins"> James Collins</a></li>
+
+  <li><a href="./people.html#isabel-kwass-mason"> Isabel Kwass-Mason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLXJpc2E=">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="https://aacrjournals.org/cebp/article/doi/10.1158/1055-9965.EPI-25-1664/785324"> Impacts of Hurricane-Related Flooding on Time to Initial Cancer-Directed Treatment in North Carolina</a></li>
 
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -456,7 +545,7 @@ window.Quarto = {
 </div>
 </div>
 
-</div></div></div></div></div>
+</div></div></div></div></div></div></div>
 </section>
 </div><div class="column" style="width:60%;">
 <section id="recent-research" class="level3">
@@ -466,6 +555,173 @@ window.Quarto = {
 <ul>
 
   <li><a href="https://www.nature.com/articles/s43247-025-02326-w"> Land-based sensors reveal high frequency of coastal flooding</a></li>
+
+  <li><a href="https://www.sciencedirect.com/science/article/pii/S0043135424012387"> Wind and Rain Compound with Tides to Cause Frequent and Unexpected Coastal Floods</a></li>
+
+  <li><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GH001020"> Fecal Bacteria Contamination of Floodwaters and a Coastal Waterway From Tidally-Driven Stormwater Network Inundation</a></li>
+
+  <li><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022WR032392"> Data From the Drain: A Sensor Framework That Captures Multiple Drivers of Chronic Coastal Floods</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtcmlzYQ==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#james-collins"> James Collins</a></li>
+
+  <li><a href="./people.html#isabel-kwass-mason"> Isabel Kwass-Mason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLXJpc2E=">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="https://aacrjournals.org/cebp/article/doi/10.1158/1055-9965.EPI-25-1664/785324"> Impacts of Hurricane-Related Flooding on Time to Initial Cancer-Directed Treatment in North Carolina</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtbWlncg==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#abhishek-bhatia"> Abhishek Bhatia</a></li>
+
+  <li><a href="./people.html#ruitian-yan"> Ruitian Yan</a></li>
+
+  <li><a href="./people.html#isabel-kwass-mason"> Isabel Kwass-Mason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLW1pZ3I=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtaW5zdQ==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#kieran-fitzmason"> Kieran Fitzmason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLWluc3U=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlZGVzYw==">We study impacts of and responses to climate-driven hazards</span></p>
+</div>
+</div></div></div></div></div></div>
+</section>
+</div>
+</div>
+</section>
+<section id="carolinas-risa" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="carolinas-risa">Carolinas RISA</h2>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><br><br> <img src="files/images/CRISA_logo_v2_abbr_blue.png" class="img-fluid" style="width:75.0%"></p>
+</div><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/images/carolinas_risa_meeting_nov24.jpg" class="img-fluid figure-img"></p>
+<figcaption>Carolinas RISA team</figcaption>
+</figure>
+</div>
+</div></div>
+<p>We are seeing more extreme rainfall and higher temperatures. Severe weather events are causing unprecedented damage. Hazards and extreme weather impact the health and well-being of every community.</p>
+<p>Since forming in the fall of 2021, the Carolinas Regional Integrated Sciences and Assessment (RISA) is committed to understanding our changing climate and addressing the impacts.</p>
+<p>By integrating social science, physical science, and regional knowledge, our team and participating partner groups co-produce solutions that are tailored to meet unique local needs and priorities.</p>
+<p>We strive to support all Carolina communities that are exposed to extreme weather.</p>
+<p><a href="https://carolinascap.com/">Learn more →</a></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<section id="team-members-1" class="level3">
+<h3 class="anchored" data-anchor-id="team-members-1">Team members</h3>
+<div id="listing-people-risa" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#james-collins"> James Collins</a></li>
+
+  <li><a href="./people.html#isabel-kwass-mason"> Isabel Kwass-Mason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLXJpc2E=">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="https://aacrjournals.org/cebp/article/doi/10.1158/1055-9965.EPI-25-1664/785324"> Impacts of Hurricane-Related Flooding on Time to Initial Cancer-Directed Treatment in North Carolina</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtbWlncg==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#abhishek-bhatia"> Abhishek Bhatia</a></li>
+
+  <li><a href="./people.html#ruitian-yan"> Ruitian Yan</a></li>
+
+  <li><a href="./people.html#isabel-kwass-mason"> Isabel Kwass-Mason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLW1pZ3I=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wZW9wbGUtaW5zdQ==">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="./people.html#kieran-fitzmason"> Kieran Fitzmason</a></li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="cGlwZWxpbmUtbGlzdGluZy1wdWJzLWluc3U=">
+<div class="quarto-listing-ul list">
+<ul>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Projects – Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Hino Lab at UNC</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj">We study impacts of and responses to climate-driven hazards</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlZGVzYw==">We study impacts of and responses to climate-driven hazards</span></p>
+</div>
+</div></div></div></div></div>
+</section>
+</div><div class="column" style="width:60%;">
+<section id="recent-research-1" class="level3">
+<h3 class="anchored" data-anchor-id="recent-research-1">Recent Research</h3>
+<div id="listing-pubs-risa" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-ul list">
+<ul>
+
+  <li><a href="https://aacrjournals.org/cebp/article/doi/10.1158/1055-9965.EPI-25-1664/785324"> Impacts of Hurricane-Related Flooding on Time to Initial Cancer-Directed Treatment in North Carolina</a></li>
 
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -521,8 +777,8 @@ window.Quarto = {
 <p>Who’s moving towards and away from coastal hazards?</p>
 <div class="columns">
 <div class="column" style="width:40%;">
-<section id="team-members-1" class="level3">
-<h3 class="anchored" data-anchor-id="team-members-1">Team members</h3>
+<section id="team-members-2" class="level3">
+<h3 class="anchored" data-anchor-id="team-members-2">Team members</h3>
 <div id="listing-people-migr" class="quarto-listing quarto-listing-container-custom">
 <div class="quarto-listing-ul list">
 <ul>
@@ -566,8 +822,8 @@ window.Quarto = {
 </div></div></div>
 </section>
 </div><div class="column" style="width:60%;">
-<section id="recent-research-1" class="level3">
-<h3 class="anchored" data-anchor-id="recent-research-1">Recent Research</h3>
+<section id="recent-research-2" class="level3">
+<h3 class="anchored" data-anchor-id="recent-research-2">Recent Research</h3>
 <div id="listing-pubs-migr" class="quarto-listing quarto-listing-container-custom">
 <div class="quarto-listing-ul list">
 <ul>
@@ -600,13 +856,13 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="insurance" class="level1">
-<h1>Flood Insurance</h1>
+<section id="insurance" class="level2">
+<h2 class="anchored" data-anchor-id="insurance">Flood Insurance</h2>
 <!-- ![Sunny day flooding in Carolina Beach, NC](files/images/suds.webp) -->
 <div class="columns">
 <div class="column" style="width:40%;">
-<section id="team-members-2" class="level3">
-<h3 class="anchored" data-anchor-id="team-members-2">Team members</h3>
+<section id="team-members-3" class="level3">
+<h3 class="anchored" data-anchor-id="team-members-3">Team members</h3>
 <div id="listing-people-insu" class="quarto-listing quarto-listing-container-custom">
 <div class="quarto-listing-ul list">
 <ul>
@@ -630,8 +886,8 @@ window.Quarto = {
 </div>
 </section>
 </div><div class="column" style="width:60%;">
-<section id="recent-research-2" class="level3">
-<h3 class="anchored" data-anchor-id="recent-research-2">Recent Research</h3>
+<section id="recent-research-3" class="level3">
+<h3 class="anchored" data-anchor-id="recent-research-3">Recent Research</h3>
 <div id="listing-pubs-insu" class="quarto-listing quarto-listing-container-custom">
 <div class="quarto-listing-ul list">
 <ul>

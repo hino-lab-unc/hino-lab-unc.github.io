@@ -29,19 +29,45 @@ h1, h3, .more a {
     padding: 0;
 }
 
-.card-body, .more a, .nav-footer, .nav-footer a {
+.card-body,
+.more a,
+.nav-footer,
+.nav-footer a,
+.more-news a {
     color: #ddd;
 }
 
+.listing-date {
+    color: #c9c8c8;
+    text-transform: capitalize;
+}
+
+.more {
+    float: right;
+}
 .more a {
-    padding-right: 1em;
+    padding-left: 1em;
     font-size: 1.45rem;
+}
+
+ .more-news a {
+     padding-left: 1em;
+     float: right;
+        font-size: 1rem;
 }
 
 .navbar {
     display: none;
 }
 
+a:hover {
+    color: lightblue;
+}
+
+section#whats-new h5.listing-title:hover {
+    text-decoration: underline;
+    color: lightblue;
+}
 
 @media (min-width: 767.99px) {
     body {
