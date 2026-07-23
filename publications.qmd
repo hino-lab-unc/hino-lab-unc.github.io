@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Publications"
 # subtitle: "Posts about papers, events, news, and more"
 description-meta: "New publications from the Hino Lab at UNC."
 draft-mode: unlinked

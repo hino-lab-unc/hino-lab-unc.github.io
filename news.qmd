@@ -1,0 +1,24 @@
+---
+title: "News"
+description-meta: "Hino lab news and research updates."
+draft-mode: unlinked
+page-navigation: false
+title-block-banner: false
+# date-format: "MM DD YYYY"
+listing: 
+  - id: news
+    sort: "date desc"
+    type: default
+    page-size: 100
+    fields: [title, authors, date, subtitle, image]
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    feed: true
+    contents: news
+
+filters: [remove-stray-divfence.lua]  # This filter is used to remove stray ":::" strings that leak into the HTML output when Quarto's listing wrapper fenced divs are interrupted by raw HTML blocks from the EJS template.
+---
+
+<!-- :::{#news} ::: -->
+

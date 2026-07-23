@@ -4,6 +4,9 @@
   <div class="quarto-post image-left">
     <div class="thumbnail">
       <img loading="lazy" src="<%= item.image %>" class="thumbnail-image" style="height: 400px;">
+      <% if (item.imagecredit) {%>
+        <small>Credit: <%= item.imagecredit %></small>
+      <% }%>
     </div>
     <div class="body">
       <h3 class="listing-title"><%= item.title %></h3>
@@ -34,7 +37,7 @@
         <div class="listing-description">
           <ul>
             <li><b>Projects</b></li>
-            <% for (proj in item.projects) {%>
+            <% for (proj in item.projects.sort()) {%>
               <li><a href="projects.qmd#<%= item.projects[proj].toLowerCase().replace(/\s+/g, '-') %>"> <%= item.projects[proj] %></a></li>
             <% } %>
           </ul>

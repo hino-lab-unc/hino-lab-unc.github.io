@@ -10,9 +10,539 @@
 - title: Reconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA
   subtitle: Earth's Future
   authors: Garcia, Helena M. and Sebastian, Antonia and Fitzmaurice, Kieran P. and Hino, Miyuki and Collins, Elyssa L. and Characklis, Gregory W.
-  date: 2025-01-01
+  date: 2025-12-00
   path: https://onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006026
   doi: 10.1029/2025EF006026
   categories: [model, events, data, repetitive flooding, North Carolina]
+
+- title: A Nationwide Analysis of Community-Level Floodplain Development Outcomes and Key Influences
+  authors: Agopian, Armen and Hino, Miyuki and Siders, A. R. and Samoray, Christopher and Mach, Katharine J.
+  date: 2024-09
+  subtitle: Earth's Future
+  doi: 10.1029/2024EF004585
+  path: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EF004585
+  categories: [floodplain development, nationwide]
+
+# - title: Approaches for Promoting Community Conversation around Roadway Adaptations to Sea-Level Rise
+#   booktitle: American Geophysical Union, Ocean Sciences Meeting
+#   authors: Anarde, Katherine and Moore, Laura J. and Hino, Miyuki and Murray, Allen Bradshaw and Thelen, Thomas and Franklin, Benton and Busch, K. C. and Corbett, David Reide and Cawley, Max
+#   date: 2026-12-00
+#   # number: 827
+#   # pages: CC34D--0827
+#   path: https://ui.adsabs.harvard.edu/abs/2026AGUOSMC34D0827A/
+#   # urldate: 2026-07-23
+
+
+
+- title: "Game, Sweat, Match: Temperature and Elite Worker Productivity"
+  shorttitle: Game, Sweat, Match
+  authors: Burke, Marshall and Tanutama, Vincent and Heft-Neal, Sam and Hino, Miyuki and Lobell, David
+  date: 2023-12-00
+  institution: National Bureau of Economic Research
+  path: https://www.nber.org/papers/w31650
+  # urldate: 2026-07-23
+  categories: [heat, productivity]
+
+
+
+- title: Fecal Bacteria Contamination of Floodwaters and a Coastal Waterway From Tidally-Driven Stormwater Network Inundation
+  authors: Carr, M. M. and Gold, A. C. and Harris, A. and Anarde, K. and Hino, M. and Sauers, N. and Da Silva, G. and Gamewell, C. and Nelson, N. G.
+  date: 2024-04
+  subtitle: GeoHealth
+  # volume: 8
+  # number: 4
+  # pages: e2024GH001020
+  # issn: 2471-1403, 2471-1403
+  doi: 10.1029/2024GH001020
+  path: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GH001020
+  # urldate: 2026-07-23
+  # abstract: # abstract                            Inundation of coastal stormwater networks by tides is widespread due to sea-level rise (SLR). The water quality risks posed by tidal water rising up through stormwater infrastructure (pipes and catch basins), out onto roadways, and back out to receiving water bodies is poorly understood but may be substantial given that stormwater networks are a known source of fecal contamination. In this study, we (a) documented temporal variation in concentrations of               Enterococcus               spp. (ENT), the fecal indicator bacteria standard for marine waters, in a coastal waterway over a 2-month period and more intensively during two perigean spring tide periods, (b) measured ENT concentrations in roadway floodwaters during tidal floods, and (c) explained variation in ENT concentrations as a function of tidal inundation, antecedent rainfall, and stormwater infrastructure using a pipe network inundation model and robust linear mixed effect models. We find that ENT concentrations in the receiving waterway vary as a function of tidal stage and antecedent rainfall, but also~site-specific~characteristics of the stormwater network that drains to the waterway. Tidal variables significantly explain measured ENT variance in the waterway, however, runoff drove higher ENT concentrations in the receiving waterway. Samples of floodwaters on roadways during both perigean spring tide events were limited, but all samples exceeded the threshold for safe public use of recreational waters. These results indicate that inundation of stormwater networks by tides could pose public health hazards in receiving water bodies and on roadways, which will likely be exacerbated in the future due to continued SLR.                        ,              Plain Language Summary                            Communities along the US Atlantic Coast have begun to experience the effects of sea-level rise as stormwater drainage pipes, originally designed when sea levels were lower, are now routinely inundated at high tide. We do not know whether frequent inundation of stormwater drainage pipes affects coastal water quality, specifically the fecal bacteria levels of coastal waters. In this study, we collected daily measurements of               Enterococcus               spp. (ENT), the bacteria used by regulators to assess the safety of marine waters for swimmers and recreators, from a tidal creek over a 2-month period. We also collected water samples from roadway floodwaters and the adjacent tidal creek during the highest high tides when the stormwater pipes drained during the outgoing tide. After data collection, we developed statistical models to relate the amount of ENT in the tidal creek to tide, rainfall, and stormwater infrastructure. When comparing rainfall and tide, we observed that rainfall caused greater bacterial contamination in the tidal creek than high tide flooding. However, we observed high ENT concentrations in roadway floodwaters and in the creek during the outgoing tide, leading us to conclude that everyday flooding of underground stormwater pipes at high tide could create hazardous water quality.                        ,              Key Points                                                                                     Daily observations of                     Enterococcus                     spp. concentrations in a coastal waterway were similar during and outside of perigean spring tides                                                                        Tidal inundation of stormwater networks occurred daily, but rainfall runoff produced the greatest bacterial contamination in the waterway                                                                          High                     Enterococcus                     spp. concentrations were observed in roadway floodwaters and the receiving waterway during perigean spring tides
+  # langid: english
+  categories: [chronic flooding, water quality]
+  projects: [Sunny Day]
+
+
+
+# - title: Knowns and Unknowns of Fecal Contamination of Floodwaters from Tidal Inundation
+#   booktitle: AGU Fall Meeting # abstracts
+#   authors: Carr, Megan and Nelson, Natalie and Anarde, Katherine and Harris, Angela and Gold, Adam and Hino, Miyuki and Thelen, Thomas and Harrison, Julia
+#   date: 2024-12-00
+#   # volume: 2024
+#   # pages: H13V--02
+#   path: https://ui.adsabs.harvard.edu/abs/2024AGUFMH13V...02C/# abstract
+#   # urldate: 2026-07-23
+
+
+
+# - title: "Tolerating the Tide: Chronic Coastal Flooding in Rural North Carolina and Implications for Sea Level Rise Driven Migration"
+#   shorttitle: Tolerating the Tide
+#   booktitle: AGU Fall Meeting # abstracts
+#   authors: Collins, James P. and McCUNE, Ryan and Anarde, Katherine and Hino, Miyuki and Sebastian, Antonia
+#   date: 2024-12-00
+#   # volume: 2024
+#   # pages: OS52B--04
+#   path: https://ui.adsabs.harvard.edu/abs/2024AGUFMOS52B..04C/# abstract
+#   # urldate: 2026-07-23
+
+
+
+- title: Assessing the Full Costs of Floodplain Buyouts
+  authors: Curran-Groome, William and Haygood, Hallee and Hino, Miyuki and BenDor, Todd K. and Salvesen, David
+  date: 2021-09-12-00
+  subtitle: Climatic Change
+  # shortjournal: Clim. Change
+  # volume: 168
+  # number: 1--2
+  # pages: 3
+  # issn: 0165-0009, 1573-1480
+  doi: 10.1007/s10584-021-03178-x
+  path: https://link.springer.com/10.1007/s10584-021-03178-x
+  # urldate: 2026-07-23
+  # langid: english
+  categories: [floodplain development, managed retreat]
+
+
+
+- title: Complexities and Costs of Floodplain Buyout Implementation
+  authors: Curran-Groome, William and Hino, Miyuki and BenDor, Todd K. and Salvesen, David
+  date: 2022-12-00
+  subtitle: Land Use Policy
+  # volume: 118
+  # pages: 106128
+  publisher: Elsevier
+  path: https://www.sciencedirect.com/science/article/pii/S0264837722001557
+  # urldate: 2026-07-23
+  categories: [floodplain development, managed retreat]
+
+
+
+# - title: A Landscape Study of Social Equity Data Needs and Its Access and Availability to Support the Disaster Resilience of Marginalized Communities
+#   authors: Davis, Cassandra R. and Berke, Philip and Hino, Miyuki and Goldin, S. and Fetaw, R. and Cornette, S. and Lacey, M. and Morgan, T.
+#   date: 2024-12-00
+#   path: https://naturalhazardsresiliencecenter.org/wp-content/uploads/2024/09/CRC-Landscape-Year-2-Report-Final.pdf
+#   # urldate: 2026-07-23
+#   organization: Coastal Resilience Center. https://naturalhazardsresiliencecenter. org/wp …
+
+
+
+# - title: Reconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA
+#   authors: Garcia, Helena M. and Sebastian, Antonia and Fitzmaurice, Kieran P. and Hino, Miyuki and Collins, Elyssa L. and Characklis, Gregory W.
+#   date: 2025-07
+#   subtitle: Earth's Future
+#   doi: 10.1029/2025EF006026
+#   path: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF006026
+
+
+- title: "Data From the Drain: A Sensor Framework That Captures Multiple Drivers of Chronic Coastal Floods"
+  shorttitle: Data From the Drain
+  authors: Gold, Adam and Anarde, Katherine and Grimley, Lauren and Neve, Ryan and Srebnik, Emma Rudy and Thelen, Thomas and Whipple, Anthony and Hino, Miyuki
+  date: 2023-04
+  subtitle: Water Resources Research
+  doi: 10.1029/2022WR032392
+  path: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022WR032392
+  categories: [chronic flooding, sensors, data, North Carolina]
+  projects: [Sunny Day]
+
+
+- title: Using Markets to Adapt to Climate Change
+  authors: Greenhill, Simon and Hsiang, Solomon and Balboni, Clare and Barrage, Lint and Bolliger, Ian W. and Boomhower, Judson and Diaz, Delavane and Druckenmiller, Hannah and Garg, Teevrat and Hino, Miyuki and Hong, Harrison and Kousky, Carolyn and Martinich, Jeremy and Nath, Ishan and Oremus, Kimberly L. and Park, R. Jisung and Phan, Toan and Proctor, Jonathan and Rafey, Will and Sarofim, Marcus C. and Schlenker, Wolfram and Simon, Benjamin
+  date: 2026-02-12
+  subtitle: Science
+  doi: 10.1126/science.aea7431
+  path: https://www.science.org/doi/10.1126/science.aea7431
+  categories: [economics, adaptation]
+
+
+
+# - title: "Sunny-Day-Flooding-Project/Tutorials: V1. 0.1"
+#   shorttitle: Sunny-Day-Flooding-Project/Tutorials
+#   authors: Hayden-Lowe, Jasmine and Gold, Adam and Anarde, Katherine and Grimley, Lauren and Neve, Ryan and Srebnik, Emma Rudy and Thelen, Thomas and Whipple, Anthony and Hino, Miyuki
+#   date: 2022
+#   subtitle: Zenodo
+#   path: https://ui.adsabs.harvard.edu/abs/2022zndo...7017187H/# abstract
+#   # urldate: 2026-07-23
+
+
+
+# - title: Does Information about Climate Risk Affect Property Values?
+#   authors: Hino, Miyuki and Burke, Marshall
+#   date: 2020-12-00
+#   institution: National Bureau of Economic Research
+#   path: https://www.nber.org/papers/w26807
+#   # urldate: 2026-07-23
+#   categories: [floodplain development, economics, real estate, risk]
+
+
+
+- title: The Effect of Information about Climate Risk on Property Values
+  authors: Hino, Miyuki and Burke, Marshall
+  date: 2021-04-27
+  subtitle: Proceedings of the National Academy of Sciences
+  doi: 10.1073/pnas.2003374118
+  path: https://pnas.org/doi/full/10.1073/pnas.2003374118
+  categories: [floodplain development, economics, real estate, risk]
+
+
+
+- title: Fire Frequency and Vulnerability in California
+  authors: Hino, Miyuki and Field, Christopher B.
+  date: 2023-12-00
+  subtitle: PLOS Climate
+  publisher: Public Library of Science San Francisco, CA USA
+  path: https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000087
+  categories: [wildfire, California, vulnerability]
+
+
+
+- title: Five Ways to Ensure Flood-Risk Research Helps the Most Vulnerable
+  authors: Hino, Miyuki and Nance, Earthea
+  date: 2021-12-00
+  subtitle: Nature
+  # volume: 595
+  # number: 7865
+  # pages: 27--29
+  publisher: Nature Publishing Group UK London
+  path: https://www.nature.com/articles/d41586-021-01750-0
+  categories: [equity, research, vulnerability]
+
+
+
+- title: "Growing Safely or Building Risk?: Floodplain Management in North Carolina"
+  shorttitle: Growing Safely or Building Risk?
+  authors: Hino, Miyuki and BenDor, Todd K. and Branham, Jordan and Kaza, Nikhil and Sebastian, Antonia and Sweeney, Shane
+  date: 2024-01-02
+  subtitle: Journal of the American Planning Association
+  doi: 10.1080/01944363.2022.2141821
+  path: https://www.tandfonline.com/doi/full/10.1080/01944363.2022.2141821
+  categories: [floodplain development, North Carolina]
+
+
+
+- title: High-Tide Flooding Disrupts Local Economic Activity
+  authors: Hino, Miyuki and Belanger, Samanthe Tiver and Field, Christopher B. and Davies, Alexander R. and Mach, Katharine J.
+  date: 2019-02
+  subtitle: Science Advances
+  doi: 10.1126/sciadv.aau2736
+  path: https://www.science.org/doi/10.1126/sciadv.aau2736
+  categories: [chronic flooding, economics]
+
+
+
+- title: Machine Learning for Environmental Monitoring
+  authors: Hino, Miyuki and Benami, Elinor and Brooks, Nina
+  date: 2018-12-00
+  subtitle: Nature Sustainability
+  publisher: Nature Publishing Group UK London
+  path: https://www.nature.com/articles/s41893-018-0142-9
+  categories: [methods, machine learning]
+
+
+
+- title: Managed Retreat as a Response to Natural Hazard Risk
+  authors: Hino, Miyuki and Field, Christopher B. and Mach, Katharine J.
+  date: 2017-12-00
+  subtitle: Nature Climate Change
+  publisher: Nature Publishing Group UK London
+  path: https://www.nature.com/articles/nclimate3252
+  categories: [managed retreat, review, risk]
+
+
+
+- title: "Real Options Analysis of Adaptation to Changing Flood Risk: Structural and Nonstructural Measures"
+  shorttitle: Real Options Analysis of Adaptation to Changing Flood Risk
+  authors: Hino, Miyuki and Hall, Jim W.
+  date: 2017-09
+  subtitle: "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part A: Civil Engineering"
+  doi: 10.1061/AJRUA6.0000905
+  path: https://ascelibrary.org/doi/10.1061/AJRUA6.0000905
+  # urldate: 2026-07-23
+  # langid: english
+
+
+
+# - title: Where Do Buyout Households Go? Managed Retreat and the Geography of Opportunity
+#   shorttitle: Where Do Buyout Households Go?
+#   booktitle: "2020 APPAM Fall Research Conference. Washington: APPAM"
+#   authors: Hino, Miyuki and Nguyen, Mai Thi and Riley, Sarah and Curran-Groome, Will and Haygood, Hallee and BenDor, Todd
+#   date: 2020
+#   path: https://scholar.google.com/scholar?cluster=5271732115227400164&hl=en&oi=scholarr
+#   # urldate: 2026-07-23
+
+
+
+- title: "Characterizing Manufactured Home Parks in North Carolina: A Computer Vision Based Approach"
+  shorttitle: Characterizing Manufactured Home Parks in North Carolina
+  authors: Khanal, Kshitiz and Kaza, Nikhil and Hino, Miyuki and Sebastian, Antonia
+  date: 2025-11-14
+  subtitle: "Environment and Planning B: Urban Analytics and City Science"
+  # shortjournal: Environ. Plan. B Urban Anal. City Sci.
+  # pages: 23998083251395471
+  # issn: 2399-8083, 2399-8091
+  doi: 10.1177/23998083251395471
+  path: https://journals.sagepub.com/doi/10.1177/23998083251395471
+  # urldate: 2026-07-23
+  # abstract: This study uses a computer vision-based approach to identify manufactured home parks (MHP) across North Carolina, addressing the critical lack of comprehensive public records for these vulnerable housing communities. Using high-resolution aerial imagery, a custom-trained YOLOv8 object detection model, building footprints, and parcel records, we identified 8460 MHP—more than three times the size of the largest current public dataset. The precision and recall of our model are over 93\%, in detecting individual manufactured housing units. Results reveal that while large and medium-sized MHP are predominantly an urban phenomenon, small MHP (fewer than 50 units) constitute 95\% of all identified parks, with over 67\% of these small parks located in rural areas, and are concentrated in southeastern, central, and southwestern counties. This approach enabled comprehensive identification of MHP, supporting better-informed planning for these often overlooked but critical affordable housing options.
+  # langid: english
+
+
+
+# - title: Identifying Manufactured Home Communities in North Carolina Using Computer Vision and High-Resolution Aerial Imagery for Climate Resilience Planning
+#   booktitle: AGU Fall Meeting # abstracts
+#   authors: Khanal, Kshitiz and Kaza, Nikhil and Hino, Miyuki and Sebastian, Antonia
+#   date: 2024-12-00
+#   # volume: 2024
+#   # number: 231
+#   # pages: GC23A--0231
+#   path: https://ui.adsabs.harvard.edu/abs/2024AGUFMGC23A0231K/# abstract
+#   # urldate: 2026-07-23
+
+
+
+- title: Promoting Equity in Retreat through Voluntary Property Buyout Programs
+  authors: Kraan, Caroline M. and Hino, Miyuki and Niemann, Jennifer and Siders, A. R. and Mach, Katharine J.
+  date: 2021-09
+  subtitle: Journal of Environmental Studies and Sciences
+  # shortjournal: J. Environ. Stud. Sci.
+  # volume: 11
+  # number: 3
+  # pages: 481--492
+  # issn: 2190-6483, 2190-6491
+  doi: 10.1007/s13412-021-00688-z
+  path: https://link.springer.com/10.1007/s13412-021-00688-z
+  # urldate: 2026-07-23
+  # abstract: # abstract             Voluntary property buyouts have been the most prevalent form of managed retreat in the USA to date. Tens of thousands of households have sold their flood-prone homes to the government, and after the structures are demolished, the land becomes open space. Concerns have been raised about the equity of buyout processes and outcomes, spanning distributive, procedural, and interactional dimensions of social justice. In this policy analysis, we first provide an overview of equity and justice issues in buyouts based on existing literature. We consider multiple relevant stakeholder groups: the communities in which buyouts occur, potential participants and relocating households, residents who choose to stay, and the destination communities. Second, we present policy options that may address and reduce existing social inequities in buyouts. Third, we outline how improved reporting on buyout programs by implementers can support buyout policy learning that will improve buyout outcomes and equity. Indicators can provide insight on who has access to buyouts, the effect of buyout implementation on outcomes, and the consequences of relocating—or not—for all affected. With increasing climate risks, voluntary property buyouts will remain an important means of reducing exposure to flooding and other hazards. For this method of retreat to occur effectively at greater scale, attention to social justice in program evaluation and policy learning is necessary.
+  # langid: english
+
+
+
+# - title: Aspen Global Change Institute Energy Project
+#   authors: Mach, Katharine J. and Hino, Miyuki
+#   date: 2020-12-00
+#   path: https://scholar.google.com/scholar?cluster=8639470316899835751&hl=en&oi=scholarr
+#   # urldate: 2026-07-23
+
+
+
+- title: "From Flood Control to Flood Adaptation: Managing Changing Risks and Promoting Just Well-Being"
+  shorttitle: From Flood Control to Flood Adaptation
+  authors: Mach, K. and Hino, Miyuki
+  date: 2022-12-00
+  subtitle: Oxford Research Encyclopedia of Environmental Science
+  # shortjournal: Oxf. Res. Encycl. Environ. Sci.
+  path: https://par.nsf.gov/biblio/10430840
+  # urldate: 2026-07-23
+
+
+
+- title: Managed Retreat through Voluntary Buyouts of Flood-Prone Properties
+  authors: Mach, Katharine J. and Kraan, Caroline M. and Hino, Miyuki and Siders, A. R. and Johnston, Erica M. and Field, Christopher B.
+  date: 2019-10-11
+  subtitle: Science Advances
+  doi: 10.1126/sciadv.aax8995
+  path: https://www.science.org/doi/10.1126/sciadv.aax8995
+  file: /Users/james/Zotero/storage/HSH5DTCK/Mach et al. - 2019 - Managed retreat through voluntary buyouts of flood-prone properties.pdf
+
+
+
+# - title: Managed Retreat through Voluntary Buyouts of Flood-Prone Properties. Sci Adv 5 (10): Eaax8995
+#   shorttitle: Managed Retreat through Voluntary Buyouts of Flood-Prone Properties. Sci Adv 5 (10)
+#   authors: Mach, Katharine J. and Kraan, Caroline M. and Hino, Miyuki and Siders, A. R. and Johnston, Erica M. and Field, Christopher B.
+#   date: 2019
+#   path: https://scholar.google.com/scholar?cluster=6407588770071641789&hl=en&oi=scholarr
+#   # urldate: 2026-07-23
+
+
+
+# - title: Understanding and Managing Complex Hazards and Risks
+#   booktitle: AGU Fall Meeting # abstracts
+#   authors: Mach, Katharine J. and Clement, Amy C. and Hino, Miyuki and Siders, A. R.
+#   date: 2025
+#   # volume: 2025
+#   # pages: NH44B--01
+#   path: https://ui.adsabs.harvard.edu/abs/2025AGUFMNH44B..01M/# abstract
+#   # urldate: 2026-07-23
+
+
+
+# - title: "The End of the Road: Present and Future Chronic Flood Risk Along Coastal Roadways and Impacts to Community Livability"
+#   shorttitle: The End of the Road
+#   booktitle: AGU Fall Meeting # abstracts
+#   authors: McCUNE, Ryan and Anarde, Katherine and Sebastian, Antonia and Collins, James P. and Grimley, Lauren Elise and Hamidi, Ebrahim Ebrahim and Hino, Miyuki and Dietrich, Casey
+#   date: 2025
+#   # volume: 2025
+#   # pages: H51C--04
+#   path: https://ui.adsabs.harvard.edu/abs/2025AGUFMH51C...04M/# abstract
+#   # urldate: 2026-07-23
+
+
+
+- title: Emissions Redistribution and Environmental Justice Implications of California’s Clean Vehicle Rebate Project
+  authors: Mejía-Duwan, Jaye and Hino, Miyuki and Mach, Katharine J.
+  date: 2023-12-00
+  subtitle: PLOS Climate
+  # shortjournal: PLOS Clim.
+  # volume: 2
+  # number: 5
+  # pages: e0000183
+  publisher: Public Library of Science San Francisco, CA USA
+  path: https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000183
+  # urldate: 2026-07-23
+
+
+
+- title: Divergent Priorities in Flood Adaptation
+  authors: Niemann-Morris, Jennifer and Siders, A. R. and Hino, Miyuki and Kraan, Caroline M. and Agopian, Armen and Samoray, Christopher and Mach, Katharine J.
+  date: 2025-12-00
+  subtitle: "Environmental Research: Climate"
+  # shortjournal: Environ. Res. Clim.
+  # volume: 4
+  # number: 3
+  # pages: 035012
+  publisher: IOP Publishing
+  path: https://iopscience.iop.org/article/10.1088/2752-5295/adecba/meta
+  # urldate: 2026-07-23
+
+
+
+- title: Impacts of Hurricane-Related Flooding on Time to Initial Cancer-Directed Treatment in North Carolina
+  authors: Pak, Joyce and Jackson, Bradford E. and Ranapurwala, Shabbar I. and Hino, Miyuki and Engel, Lawrence S. and Reeder-Hayes, Katherine E. and Evans-Strong, Jillian L. and Lund, Jennifer L.
+  date: 2026-12-00
+  subtitle: Cancer Epidemiology, Biomarkers \& Prevention
+  # shortjournal: Cancer Epidemiol. Biomarkers Prev.
+  # volume: 35
+  # number: 6
+  # pages: 943--952
+  publisher: American Association for Cancer Research
+  path: https://aacrjournals.org/cebp/article/doi/10.1158/1055-9965.EPI-25-1664/785324
+  # urldate: 2026-07-23
+  projects: [Carolinas RISA]
+
+
+
+- title: A Review of Funding Mechanisms for US Floodplain Buyouts
+  authors: Peterson, Kelsey and Apadula, Emily and Salvesen, David and Hino, Miyuki and Kihslinger, Rebecca and BenDor, Todd K.
+  date: 2020-12-00
+  subtitle: Sustainability
+  # volume: 12
+  # number: 23
+  # pages: 10112
+  publisher: MDPI
+  path: https://www.mdpi.com/2071-1050/12/23/10112
+  # urldate: 2026-07-23
+
+
+
+- title: "Insights from the Field: How North Carolina Local Government Climate Communications Compare to IPCC Guidelines"
+  shorttitle: Insights from the Field
+  authors: Reid, Jessica and Hino, Miyuki and Thie, Lauren and Gray, Kathleen
+  date: 2023-04-01
+  subtitle: Sustainability and Climate Change
+  # shortjournal: Sustain. Clim. Change
+  # volume: 16
+  # number: 2
+  # pages: 162--174
+  # issn: 2692-2924, 2692-2932
+  doi: 10.1089/scc.2022.0131
+  path: https://journals.sagepub.com/doi/full/10.1089/scc.2022.0131
+  # urldate: 2026-07-23
+  # langid: english
+
+
+
+- title: Housing Amenity and Affordability Shape Floodplain Development
+  authors: Samoray, Christopher and Hino, Miyuki and Siders, A. R. and Agopian, Armen and Mach, Katharine J.
+  date: 2024-12-00
+  subtitle: Land Use Policy
+  # volume: 144
+  # pages: 107216
+  publisher: Elsevier
+  path: https://www.sciencedirect.com/science/article/pii/S0264837724001698
+  # urldate: 2026-07-23
+
+
+
+- title: The Case for Strategic and Managed Climate Retreat
+  authors: Siders, A.R. and Hino, Miyuki and Mach, Katharine J.
+  date: 2019-08-23
+  subtitle: Science
+  # volume: 365
+  # number: 6455
+  # pages: 761--763
+  # issn: 0036-8075, 1095-9203
+  doi: 10.1126/science.aax8346
+  path: https://www.science.org/doi/10.1126/science.aax8346
+  # urldate: 2026-07-23
+  # abstract: Why, where, when, and how should communities relocate?           ,              Faced with global warming, rising sea levels, and the climate-related extremes they intensify, the question is no longer whether some communities will retreat—moving people and assets out of harm's way—but why, where, when, and how they will retreat. To the extent that retreat is already happening, it is typically ad hoc and focused on risk reduction in isolation from broader societal goals. It is also frequently inequitable and often ignores the communities left behind or those receiving people who retreat. Retreat has been seen largely as a last resort, a failure to adapt, or a one-time emergency action; thus, little research has focused on retreat, leaving practitioners with little guidance. Such a narrow conception of retreat has limited decision-makers' perception of the tools available and stilted innovation. We propose a reconceptualization of retreat as a suite of adaptation options that are both strategic and managed. Strategy integrates retreat into long-term development goals and identifies why retreat should occur and, in doing so, influences where and when. Management addresses how retreat is executed. By reconceptualizing retreat as a set of tools used to achieve societal goals, communities and nations gain additional adaptation options and a better chance of choosing the actions most likely to help their communities thrive.
+  # langid: english
+
+
+
+- title: How Local Governments Avoid Floodplain Development through Consistent Implementation of Routine Municipal Ordinances, Plans, and Programs
+  authors: Siders, A. R. and Niemann-Morris, Jennifer and Hino, Miyuki and Shields, Elizabeth and Cano Pecharroman, Lidia and Doeffinger, Tess and Gerber-Chavez, Logan and Huang, Ju-Ching and Lafferty, Alexandra and Tamima, Salvesila
+  date: 2024-12-00
+  subtitle: Oxford Open Climate Change
+  # shortjournal: Oxf. Open Clim. Change
+  # volume: 4
+  # number: 1
+  # pages: kgae017
+  publisher: Oxford University Press
+  path: https://academic.oup.com/oocc/article-# abstract/4/1/kgae017/7759948
+  # urldate: 2026-07-23
+
+
+
+- title: "Coastal Squeeze Reduces Nitrogen Removal Services Provided by Wetlands: Insights from an Interdisciplinary Framework"
+  shorttitle: Coastal Squeeze Reduces Nitrogen Removal Services Provided by Wetlands
+  authors: Smiley, Anne Margaret H. and Grimley, Lauren E. and Garcia, Helena M. and Sebastian, Antonia and Berke, Philip R. and Hino, Miyuki and Piehler, Michael F.
+  date: 2025-12-00
+  subtitle: Environmental Research Letters
+  # shortjournal: Environ. Res. Lett.
+  # volume: 20
+  # number: 11
+  # pages: 114015
+  publisher: IOP Publishing
+  path: https://iopscience.iop.org/article/10.1088/1748-9326/ae0cde/meta
+  # urldate: 2026-07-23
+
+
+
+- title: Wind and Rain Compound with Tides to Cause Frequent and Unexpected Coastal Floods
+  authors: Thelen, Thomas and Anarde, Katherine and Dietrich, Joel Casey and Hino, Miyuki
+  date: 2024-12-00
+  subtitle: Water Research
+  # shortjournal: Water Res.
+  # volume: 266
+  # pages: 122339
+  publisher: Elsevier
+  path: https://www.sciencedirect.com/science/article/pii/S0043135424012387
+  # urldate: 2026-07-23
+  projects: [Sunny Day]
+
+
+
+- title: Weatherization Reduces Needs for Energy Bill Assistance
+  authors: Turek-Hankins, Lynée L. and Schueler, Vince and Hino, Miyuki and Mach, Katharine J.
+  date: 2026-12-00
+  subtitle: Energy Policy
+  # volume: 208
+  # pages: 114911
+  publisher: Elsevier
+  path: https://www.sciencedirect.com/science/article/pii/S0301421525004185
+  # urldate: 2026-07-23
+
+
+
+# - title: "Characterizing Renter Movement and Financial Vulnerability in Relation to Flooding: A Panel Study in North Carolina"
+#   shorttitle: Characterizing Renter Movement and Financial Vulnerability in Relation to Flooding
+#   booktitle: AGU Fall Meeting # abstracts
+#   authors: Yan, Ruitian and Hino, Miyuki
+#   date: 2024-12-00
+#   # volume: 2024
+#   # number: 116
+#   # pages: GC43A--0116
+#   path: https://ui.adsabs.harvard.edu/abs/2024AGUFMGC43A0116Y/# abstract
+#   # urldate: 2026-07-23
+
+
 
 

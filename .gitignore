@@ -4,3 +4,5 @@
 
 /.luarc.json
 .DS_Store
+
+docs*

@@ -15,10 +15,12 @@ website:
     background: transparent  # You can change the background color here
 
     left:   # You can comment out all navigation items here if you just like to keep the index page only
+      - text: News
+        href: news.qmd
       - text: Projects
         href: projects.qmd
-      - text: Research
-        href: research.qmd                           
+      - text: Publications
+        href: publications.qmd                           
       - text: People
         href: people.qmd
       - text: Opportunities

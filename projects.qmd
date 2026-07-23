@@ -43,6 +43,37 @@ listing:
     contents: publications.yml
     template: ul-pubs.ejs.md
 
+  - id: people-risa
+    sort: "name"
+    feed: false
+    contents: 
+        - people/affiliate.yml
+        - people/grad-student.yml
+        - people/staff.yml
+        - people/undergrad-student.yml
+        - people/postdoc.yml
+    template: ul-people.ejs.md
+    include:
+        projects: Carolinas RISA
+
+  - id: pubs-risa
+    sort: "date desc"
+    max-items: 5
+    fields: [title, date, subtitle]
+    field-display-names: 
+      title: Title
+      date: Year
+      subtitle: Journal
+    include:
+        projects: Carolinas RISA
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    contents: publications.yml
+    template: ul-pubs.ejs.md
+
+
   - id: people-migr
     sort: "name"
     feed: false
@@ -108,6 +139,11 @@ filters: [remove-stray-divfence.lua]
 
 ## Sunny Day Flooding Project {#sunny-day}
 
+
+:::{.column-margin}
+![](files/images/sunnyd.webp){width="75%"}
+:::
+
 :::{.column-margin}
 ![Sunny day flooding in Carolina Beach, NC](files/images/suds.webp)
 :::
@@ -130,6 +166,44 @@ The tidal cycle now takes place on higher average sea levels, resulting in “su
 ::: {.column width='60%'}
 ### Recent Research
 :::{#pubs-suds}
+:::
+:::
+
+:::
+
+
+##  Carolinas RISA {#carolinas-risa}
+
+:::{.column-margin}
+<br><br>
+![](files/images/CRISA_logo_v2_abbr_blue.png){width="75%"}
+:::
+
+:::{.column-margin}
+![Carolinas RISA team](files/images/carolinas_risa_meeting_nov24.jpg)
+:::
+
+We are seeing more extreme rainfall and higher temperatures. Severe weather events are causing unprecedented damage. Hazards and extreme weather impact the health and well-being of every community.
+
+Since forming in the fall of 2021, the Carolinas Regional Integrated Sciences and Assessment (RISA) is committed to understanding our changing climate and addressing the impacts.
+
+By integrating social science, physical science, and regional knowledge, our team and participating partner groups co-produce solutions that are tailored to meet unique local needs and priorities.
+
+We strive to support all Carolina communities that are exposed to extreme weather.
+
+[Learn more →](https://carolinascap.com/)
+
+::: {.columns}
+
+::: {.column width='40%'}
+### Team members
+:::{#people-risa}
+:::
+:::
+
+::: {.column width='60%'}
+### Recent Research
+:::{#pubs-risa}
 :::
 :::
 
@@ -160,7 +234,7 @@ Who's moving towards and away from coastal hazards?
 
 
 
-# Flood Insurance {#insurance}
+## Flood Insurance {#insurance}
 
 <!-- ![Sunny day flooding in Carolina Beach, NC](files/images/suds.webp) -->
 

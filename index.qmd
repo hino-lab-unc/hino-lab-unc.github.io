@@ -4,6 +4,7 @@ description-meta: "We study impacts of and responses to extreme weather, natural
 image: "files/images/bg.jpeg"
 page-navigation: false
 toc: false
+date-format: medium
 #sidebar: false
 # page-layout: full
 
@@ -49,14 +50,16 @@ about:
 
 listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
   - id: recent-posts
-    contents: publications.yml
+    contents: 
+      - publications.yml
+      - news
     exclude:
       title: ""
     type: grid
     max-items: 3
 #    image-height: 150px
     page-size: 3 #set same as max-times to remove the page number setting
-    fields: [title]
+    fields: [title, date]
     max-description-length: 75
     sort: 
       - "date desc"
@@ -67,9 +70,9 @@ css: index.css
 
 :::{#hero-heading}
 
-We map populations, engage communities, and identify policy gaps to understand climate-driven hazards in North Carolina and beyond.
+We study how climate risks shape society and how communities respond to a changing environments. 
 
-We strive towards a less risky world.
+Our research informs evidence-based policies and governance that build resilience for all.
 
 :::
 
@@ -77,13 +80,16 @@ We strive towards a less risky world.
 
 :::{#recent-posts}
 :::
+<p class="more-news">
+  [More news](news.qmd)
+  [More publications](news.qmd)
+</p>
 
 <!-- ### Opportunities -->
 
-<br>
+<br><br>
 <p class="more">
   [Projects](projects.qmd)
-  [Research](research.qmd)
   [People](people.qmd)
   [Opportunities →](https://www.miyukihino.com/opportunities)
 </p>
