@@ -37,15 +37,25 @@ h1, h3, .more a {
     color: #ddd;
 }
 
+.listing-date {
+    color: #c9c8c8;
+    text-transform: capitalize;
+}
+
+.more {
+    float: right;
+}
 .more a {
-    padding-right: 1em;
+    padding-left: 1em;
     font-size: 1.45rem;
 }
 
-.more-news {
-    float: right;
-    font-size: smaller;
+ .more-news a {
+     padding-left: 1em;
+     float: right;
+        font-size: 1rem;
 }
+
 .navbar {
     display: none;
 }

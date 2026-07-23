@@ -4,6 +4,7 @@ description-meta: "We study impacts of and responses to extreme weather, natural
 image: "files/images/bg.jpeg"
 page-navigation: false
 toc: false
+date-format: medium
 #sidebar: false
 # page-layout: full
 
@@ -58,7 +59,7 @@ listing:   # Comment the listing section and delete corresponding lines in the i
     max-items: 3
 #    image-height: 150px
     page-size: 3 #set same as max-times to remove the page number setting
-    fields: [title]
+    fields: [title, date]
     max-description-length: 75
     sort: 
       - "date desc"
@@ -81,6 +82,7 @@ Our research informs evidence-based policies and governance that build resilienc
 :::
 <p class="more-news">
   [More news](news.qmd)
+  [More publications](news.qmd)
 </p>
 
 <!-- ### Opportunities -->
@@ -88,7 +90,6 @@ Our research informs evidence-based policies and governance that build resilienc
 <br><br>
 <p class="more">
   [Projects](projects.qmd)
-  [Publications](publications.qmd)
   [People](people.qmd)
   [Opportunities →](https://www.miyukihino.com/opportunities)
 </p>
