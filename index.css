@@ -29,7 +29,11 @@ h1, h3, .more a {
     padding: 0;
 }
 
-.card-body, .more a, .nav-footer, .nav-footer a {
+.card-body,
+.more a,
+.nav-footer,
+.nav-footer a,
+.more-news a {
     color: #ddd;
 }
 
@@ -38,10 +42,22 @@ h1, h3, .more a {
     font-size: 1.45rem;
 }
 
+.more-news {
+    float: right;
+    font-size: smaller;
+}
 .navbar {
     display: none;
 }
 
+a:hover {
+    color: lightblue;
+}
+
+section#whats-new h5.listing-title:hover {
+    text-decoration: underline;
+    color: lightblue;
+}
 
 @media (min-width: 767.99px) {
     body {

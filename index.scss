@@ -30,10 +30,18 @@ h1, h3, .more a {
     padding: 0;
 }
 
-.card-body, .more a, .nav-footer, .nav-footer a {
+.card-body,
+.more a,
+.nav-footer,
+.nav-footer a,
+.more-news a {
     color: var(--quarto-scss-export-gray-400);
 }
 
+.more-news {
+    float: right;
+    font-size: smaller;
+}
 .more a {
     padding-right: 1em;
     font-size: 1.45rem;

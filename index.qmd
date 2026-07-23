@@ -49,7 +49,9 @@ about:
 
 listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
   - id: recent-posts
-    contents: publications.yml
+    contents: 
+      - publications.yml
+      - news
     exclude:
       title: ""
     type: grid
@@ -77,10 +79,13 @@ Our research informs evidence-based policies and governance that build resilienc
 
 :::{#recent-posts}
 :::
+<p class="more-news">
+  [More news](news.qmd)
+</p>
 
 <!-- ### Opportunities -->
 
-<br>
+<br><br>
 <p class="more">
   [Projects](projects.qmd)
   [Publications](publications.qmd)
