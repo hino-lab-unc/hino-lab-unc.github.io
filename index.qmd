@@ -81,8 +81,8 @@ Our research informs evidence-based policies and governance that build resilienc
 :::{#recent-posts}
 :::
 <p class="more-news">
+  [More publications](publications.qmd)
   [More news](news.qmd)
-  [More publications](news.qmd)
 </p>
 
 <!-- ### Opportunities -->
