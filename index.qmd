@@ -83,7 +83,7 @@ Our research informs evidence-based policies and governance that build resilienc
 <br>
 <p class="more">
   [Projects](projects.qmd)
-  [Research](research.qmd)
+  [Publications](publications.qmd)
   [People](people.qmd)
   [Opportunities →](https://www.miyukihino.com/opportunities)
 </p>

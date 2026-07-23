@@ -17,8 +17,8 @@ website:
     left:   # You can comment out all navigation items here if you just like to keep the index page only
       - text: Projects
         href: projects.qmd
-      - text: Research
-        href: research.qmd                           
+      - text: Publications
+        href: publications.qmd                           
       - text: People
         href: people.qmd
       - text: Opportunities
