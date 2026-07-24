@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,10 +45,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-753141eee1b0038642ca02ccad18552e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-05a0de14db69137b27d21afda85ba635.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
       valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-date","listing-doi","listing-categories","listing-projects","listing-shorttitle","listing-institution","listing-publisher","listing-file"],
+      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-date","listing-categories","listing-projects","listing-doi","listing-shorttitle","listing-institution","listing-publisher","listing-file"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -133,7 +136,7 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -251,7 +254,22 @@ window.Quarto = {
 <h3 data-anchor-id="whats-new">What’s new</h3>
 <div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1793404800000">
+<div class="g-col-1" data-index="0" data-categories="Y2hyb25pYyUyMGZsb29kaW5nJTJDcXVhbGl0YXRpdmUlMkNtaWdyYXRpb24lMkNOb3J0aCUyMENhcm9saW5h" data-listing-date-sort="1782864000000">
+<a href="https://jpcollins.me/down-east-flooding-tolerance/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Price of Paradise: How Communities Tolerate Chronic Coastal Flooding in Rural North Carolina
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 1, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1780358400000">
 <a href="https://aacrjournals.org/cebp/article/doi/10.1158/1055-9965.EPI-25-1664/785324" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -260,13 +278,13 @@ Impacts of Hurricane-Related Flooding on Time to Initial Cancer-Directed Treatme
 </h5>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Oct 31, 2026
+Jun 2, 2026
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1793404800000">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1767225600000">
 <a href="https://www.sciencedirect.com/science/article/pii/S0301421525004185" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -275,22 +293,7 @@ Weatherization Reduces Needs for Energy Bill Assistance
 </h5>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Oct 31, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="ZWNvbm9taWNzJTJDYWRhcHRhdGlvbg==" data-listing-date-sort="1770854400000">
-<a href="https://www.science.org/doi/10.1126/science.aea7431" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Using Markets to Adapt to Climate Change
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 12, 2026
+Jan 1, 2026
 </div>
 </div>
 </div>
@@ -731,7 +734,7 @@ Made with <a href="https://github.com/drganghe/quarto-academic-website-template"
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="./research.xml" target="_blank">
+    <a class="nav-link" href="./publications.xml" target="_blank">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>
