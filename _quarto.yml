@@ -55,7 +55,7 @@ website:
       #   href: https://bsky.app
       #   target: _blank
       - icon: rss
-        href: research.xml
+        href: publications.xml
         target: _blank  
   
   search:

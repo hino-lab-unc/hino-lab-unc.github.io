@@ -1,6 +1,15 @@
+- title: "The Price of Paradise: How Communities Tolerate Chronic Coastal Flooding in Rural North Carolina"
+  subtitle: In review
+  authors: <b>James P. Collins</b>, Ryan McCune, <b>Miyuki Hino</b>, Katherine Anarde, Karen Amspacher
+  date: 2026-07-01
+  path: https://jpcollins.me/down-east-flooding-tolerance/
+  # doi: 10.1038/s43247-025-02326-w
+  categories: [chronic flooding, qualitative, migration, North Carolina]
+  projects: [Sunny Day]
+
 - title: Land-based sensors reveal high frequency of coastal flooding
   subtitle: Nature Communications Earth & Environment
-  authors: Hino, Miyuki and Anarde, Katherine and Fridell, Tessa and McCune, Ryan and Thelen, Thomas and Farquhar, Elizabeth and Woodard, Perri and Whipple, Anthony
+  authors: <b>Miyuki Hino</b>, Katherine Anarde, Tessa Fridell, Ryan McCune, Thomas Thelen, Elizabeth Farquhar,  Perri Woodard,  Anthony Whipple
   date: 2025-06-01
   path: https://www.nature.com/articles/s43247-025-02326-w
   doi: 10.1038/s43247-025-02326-w
@@ -9,14 +18,14 @@
 
 - title: Reconstructing Repetitive Flood Exposure Across 78 Events From 1996 to 2020 in North Carolina, USA
   subtitle: Earth's Future
-  authors: Garcia, Helena M. and Sebastian, Antonia and Fitzmaurice, Kieran P. and Hino, Miyuki and Collins, Elyssa L. and Characklis, Gregory W.
+  authors: <b>Helena M. Garcia</b>,  Antonia Sebastian,  <b>Kieran P. Fitzmaurice</b>,  <b>Miyuki Hino</b>,  Elyssa L. Collins, Gregory W. Characklis
   date: 2025-12-00
   path: https://onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006026
   doi: 10.1029/2025EF006026
   categories: [model, events, data, repetitive flooding, North Carolina]
 
 - title: A Nationwide Analysis of Community-Level Floodplain Development Outcomes and Key Influences
-  authors: Agopian, Armen and Hino, Miyuki and Siders, A. R. and Samoray, Christopher and Mach, Katharine J.
+  authors: Armen Agopian,  <b>Miyuki Hino</b>,  A. R.  Siders, Christopher Samoray,  Katharine J. Mach, 
   date: 2024-09
   subtitle: Earth's Future
   doi: 10.1029/2024EF004585
@@ -36,7 +45,7 @@
 
 - title: "Game, Sweat, Match: Temperature and Elite Worker Productivity"
   shorttitle: Game, Sweat, Match
-  authors: Burke, Marshall and Tanutama, Vincent and Heft-Neal, Sam and Hino, Miyuki and Lobell, David
+  authors: Marshall Burke,  Vincent Tanutama,  Sam Heft-Neal, <b><b>Miyuki Hino</b></b>,  David Lobell, 
   date: 2023-12-00
   institution: National Bureau of Economic Research
   path: https://www.nber.org/papers/w31650
@@ -46,7 +55,7 @@
 
 
 - title: Fecal Bacteria Contamination of Floodwaters and a Coastal Waterway From Tidally-Driven Stormwater Network Inundation
-  authors: Carr, M. M. and Gold, A. C. and Harris, A. and Anarde, K. and Hino, M. and Sauers, N. and Da Silva, G. and Gamewell, C. and Nelson, N. G.
+  authors: M. M. Carr,  A. C. Gold,   A. Harris, K. Anarde, <b>M. Hino</b>,   N. Sauers, G. Da Silva, C. Gamewell,  N. G. Nelson
   date: 2024-04
   subtitle: GeoHealth
   # volume: 8
@@ -87,7 +96,7 @@
 
 
 - title: Assessing the Full Costs of Floodplain Buyouts
-  authors: Curran-Groome, William and Haygood, Hallee and Hino, Miyuki and BenDor, Todd K. and Salvesen, David
+  authors: William Curran-Groome,  Hallee Haygood,  <b>Miyuki Hino</b>,  Todd K. BenDor,  David Salvesen, 
   date: 2021-09-12-00
   subtitle: Climatic Change
   # shortjournal: Clim. Change
@@ -104,7 +113,7 @@
 
 
 - title: Complexities and Costs of Floodplain Buyout Implementation
-  authors: Curran-Groome, William and Hino, Miyuki and BenDor, Todd K. and Salvesen, David
+  authors: William Curran-Groome,  <b>Miyuki Hino</b>,   Todd K. BenDor, David Salvesen
   date: 2022-12-00
   subtitle: Land Use Policy
   # volume: 118
@@ -135,7 +144,7 @@
 
 - title: "Data From the Drain: A Sensor Framework That Captures Multiple Drivers of Chronic Coastal Floods"
   shorttitle: Data From the Drain
-  authors: Gold, Adam and Anarde, Katherine and Grimley, Lauren and Neve, Ryan and Srebnik, Emma Rudy and Thelen, Thomas and Whipple, Anthony and Hino, Miyuki
+  authors: Adam Gold,  Katherine Anarde,  Lauren Grimley,  Ryan Neve,  Emma Rudy  Srebnik, and Thomas,  Anthony Whipple,  <b>Miyuki Hino</b>, 
   date: 2023-04
   subtitle: Water Resources Research
   doi: 10.1029/2022WR032392
@@ -145,7 +154,7 @@
 
 
 - title: Using Markets to Adapt to Climate Change
-  authors: Greenhill, Simon and Hsiang, Solomon and Balboni, Clare and Barrage, Lint and Bolliger, Ian W. and Boomhower, Judson and Diaz, Delavane and Druckenmiller, Hannah and Garg, Teevrat and Hino, Miyuki and Hong, Harrison and Kousky, Carolyn and Martinich, Jeremy and Nath, Ishan and Oremus, Kimberly L. and Park, R. Jisung and Phan, Toan and Proctor, Jonathan and Rafey, Will and Sarofim, Marcus C. and Schlenker, Wolfram and Simon, Benjamin
+  authors: Simon Greenhill,  Solomon Hsiang,  Clare Balboni,  Lint Barrage,  Ian W. Bolliger,  Judson Boomhower,  Delavane Diaz,  Hannah Druckenmiller,  Teevrat Garg,  <b>Miyuki Hino</b>,  Harrison Hong,  Carolyn Kousky,  Jeremy Martinich,  Ishan Nath,  Kimberly L. Oremus,  R. Jisung Park,  Toan Phan,  Jonathan Proctor,  Will Rafey,  Marcus C. Sarofim,  Wolfram Schlenker,  Benjamin Simon
   date: 2026-02-12
   subtitle: Science
   doi: 10.1126/science.aea7431
@@ -175,7 +184,7 @@
 
 
 - title: The Effect of Information about Climate Risk on Property Values
-  authors: Hino, Miyuki and Burke, Marshall
+  authors: <b>Miyuki Hino</b>,  Marshall Burke
   date: 2021-04-27
   subtitle: Proceedings of the National Academy of Sciences
   doi: 10.1073/pnas.2003374118
@@ -185,7 +194,7 @@
 
 
 - title: Fire Frequency and Vulnerability in California
-  authors: Hino, Miyuki and Field, Christopher B.
+  authors: <b>Miyuki Hino</b>,  Christopher B. Field
   date: 2023-12-00
   subtitle: PLOS Climate
   publisher: Public Library of Science San Francisco, CA USA
@@ -195,7 +204,7 @@
 
 
 - title: Five Ways to Ensure Flood-Risk Research Helps the Most Vulnerable
-  authors: Hino, Miyuki and Nance, Earthea
+  authors: <b>Miyuki Hino</b>,  Earthea Nance
   date: 2021-12-00
   subtitle: Nature
   # volume: 595
@@ -209,7 +218,7 @@
 
 - title: "Growing Safely or Building Risk?: Floodplain Management in North Carolina"
   shorttitle: Growing Safely or Building Risk?
-  authors: Hino, Miyuki and BenDor, Todd K. and Branham, Jordan and Kaza, Nikhil and Sebastian, Antonia and Sweeney, Shane
+  authors: <b>Miyuki Hino</b>,  Todd K. BenDor,  Jordan Branham,  Nikhil Kaza,  Antonia Sebastian,  Shane Sweeney
   date: 2024-01-02
   subtitle: Journal of the American Planning Association
   doi: 10.1080/01944363.2022.2141821
@@ -219,7 +228,7 @@
 
 
 - title: High-Tide Flooding Disrupts Local Economic Activity
-  authors: Hino, Miyuki and Belanger, Samanthe Tiver and Field, Christopher B. and Davies, Alexander R. and Mach, Katharine J.
+  authors: <b>Miyuki Hino</b>,  Samanthe Tiver  Belanger, Christopher B. Field, Alexander R. Davies,  Katharine J. Mach
   date: 2019-02
   subtitle: Science Advances
   doi: 10.1126/sciadv.aau2736
@@ -229,7 +238,7 @@
 
 
 - title: Machine Learning for Environmental Monitoring
-  authors: Hino, Miyuki and Benami, Elinor and Brooks, Nina
+  authors: <b>Miyuki Hino</b>,  Elinor Benami,  Nina Brooks
   date: 2018-12-00
   subtitle: Nature Sustainability
   publisher: Nature Publishing Group UK London
@@ -239,7 +248,7 @@
 
 
 - title: Managed Retreat as a Response to Natural Hazard Risk
-  authors: Hino, Miyuki and Field, Christopher B. and Mach, Katharine J.
+  authors: <b>Miyuki Hino</b>,  Christopher B. Field,  Katharine J. Mach
   date: 2017-12-00
   subtitle: Nature Climate Change
   publisher: Nature Publishing Group UK London
@@ -250,7 +259,7 @@
 
 - title: "Real Options Analysis of Adaptation to Changing Flood Risk: Structural and Nonstructural Measures"
   shorttitle: Real Options Analysis of Adaptation to Changing Flood Risk
-  authors: Hino, Miyuki and Hall, Jim W.
+  authors: <b>Miyuki Hino</b>, Jim W. Hall
   date: 2017-09
   subtitle: "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part A: Civil Engineering"
   doi: 10.1061/AJRUA6.0000905
@@ -272,7 +281,7 @@
 
 - title: "Characterizing Manufactured Home Parks in North Carolina: A Computer Vision Based Approach"
   shorttitle: Characterizing Manufactured Home Parks in North Carolina
-  authors: Khanal, Kshitiz and Kaza, Nikhil and Hino, Miyuki and Sebastian, Antonia
+  authors: Kshitiz Khanal,  Nikhil Kaza,  <b>Miyuki Hino</b>,  Antonia Sebastian
   date: 2025-11-14
   subtitle: "Environment and Planning B: Urban Analytics and City Science"
   # shortjournal: Environ. Plan. B Urban Anal. City Sci.
@@ -299,7 +308,7 @@
 
 
 - title: Promoting Equity in Retreat through Voluntary Property Buyout Programs
-  authors: Kraan, Caroline M. and Hino, Miyuki and Niemann, Jennifer and Siders, A. R. and Mach, Katharine J.
+  authors: Caroline M. Kraan,  <b>Miyuki Hino</b>,  Jennifer Niemann,  A. R. Siders,   Katharine J. Mach
   date: 2021-09
   subtitle: Journal of Environmental Studies and Sciences
   # shortjournal: J. Environ. Stud. Sci.
@@ -325,7 +334,7 @@
 
 - title: "From Flood Control to Flood Adaptation: Managing Changing Risks and Promoting Just Well-Being"
   shorttitle: From Flood Control to Flood Adaptation
-  authors: Mach, K. and Hino, Miyuki
+  authors: Katharine J. Mach,  <b>Miyuki Hino</b>
   date: 2022-12-00
   subtitle: Oxford Research Encyclopedia of Environmental Science
   # shortjournal: Oxf. Res. Encycl. Environ. Sci.
@@ -335,7 +344,7 @@
 
 
 - title: Managed Retreat through Voluntary Buyouts of Flood-Prone Properties
-  authors: Mach, Katharine J. and Kraan, Caroline M. and Hino, Miyuki and Siders, A. R. and Johnston, Erica M. and Field, Christopher B.
+  authors: Katharine J. Mach,  Caroline M. Kraan,  <b>Miyuki Hino</b>,  A. R.  Siders,  Erica M.  Johnston, Christopher B. Field, 
   date: 2019-10-11
   subtitle: Science Advances
   doi: 10.1126/sciadv.aax8995
@@ -377,7 +386,7 @@
 
 
 - title: Emissions Redistribution and Environmental Justice Implications of California’s Clean Vehicle Rebate Project
-  authors: Mejía-Duwan, Jaye and Hino, Miyuki and Mach, Katharine J.
+  authors: Jaye Mejía-Duwan,  <b>Miyuki Hino</b>,  Katharine J. Mach, 
   date: 2023-12-00
   subtitle: PLOS Climate
   # shortjournal: PLOS Clim.
@@ -391,7 +400,7 @@
 
 
 - title: Divergent Priorities in Flood Adaptation
-  authors: Niemann-Morris, Jennifer and Siders, A. R. and Hino, Miyuki and Kraan, Caroline M. and Agopian, Armen and Samoray, Christopher and Mach, Katharine J.
+  authors: JenniferNiemann-Morris,  A. R. Siders,  <b>Miyuki Hino</b>,  Caroline M. Kraan,  Armen Agopian,  Christopher Samoray,  Katharine J. Mach
   date: 2025-12-00
   subtitle: "Environmental Research: Climate"
   # shortjournal: Environ. Res. Clim.
@@ -405,8 +414,8 @@
 
 
 - title: Impacts of Hurricane-Related Flooding on Time to Initial Cancer-Directed Treatment in North Carolina
-  authors: Pak, Joyce and Jackson, Bradford E. and Ranapurwala, Shabbar I. and Hino, Miyuki and Engel, Lawrence S. and Reeder-Hayes, Katherine E. and Evans-Strong, Jillian L. and Lund, Jennifer L.
-  date: 2026-12-00
+  authors: Joyce Pak,  Bradford E. Jackson,   Shabbar I.  Ranapurwala, <b>Miyuki Hino</b>,  Lawrence S. Engel,  Katherine E. Reeder-Hayes,  Jillian L. Evans-Strong,  Jennifer L. Lund
+  date: 2026-06-02
   subtitle: Cancer Epidemiology, Biomarkers \& Prevention
   # shortjournal: Cancer Epidemiol. Biomarkers Prev.
   # volume: 35
@@ -420,7 +429,7 @@
 
 
 - title: A Review of Funding Mechanisms for US Floodplain Buyouts
-  authors: Peterson, Kelsey and Apadula, Emily and Salvesen, David and Hino, Miyuki and Kihslinger, Rebecca and BenDor, Todd K.
+  authors: Kelsey Peterson,  Emily Apadula,  David Salvesen,  <b>Miyuki Hino</b>,  Rebecca Kihslinger,   Todd K. BenDor
   date: 2020-12-00
   subtitle: Sustainability
   # volume: 12
@@ -434,7 +443,7 @@
 
 - title: "Insights from the Field: How North Carolina Local Government Climate Communications Compare to IPCC Guidelines"
   shorttitle: Insights from the Field
-  authors: Reid, Jessica and Hino, Miyuki and Thie, Lauren and Gray, Kathleen
+  authors: Jessica Reid,  <b>Miyuki Hino</b>,  Lauren Thie,  Kathleen Gray
   date: 2023-04-01
   subtitle: Sustainability and Climate Change
   # shortjournal: Sustain. Clim. Change
@@ -450,7 +459,7 @@
 
 
 - title: Housing Amenity and Affordability Shape Floodplain Development
-  authors: Samoray, Christopher and Hino, Miyuki and Siders, A. R. and Agopian, Armen and Mach, Katharine J.
+  authors: Christopher Samoray,  <b>Miyuki Hino</b>,  A. R. Siders,  Armen Agopian,  Katharine J. Mach
   date: 2024-12-00
   subtitle: Land Use Policy
   # volume: 144
@@ -462,7 +471,7 @@
 
 
 - title: The Case for Strategic and Managed Climate Retreat
-  authors: Siders, A.R. and Hino, Miyuki and Mach, Katharine J.
+  authors: A.R. Siders,  <b>Miyuki Hino</b>,  Katharine J. Mach
   date: 2019-08-23
   subtitle: Science
   # volume: 365
@@ -478,7 +487,7 @@
 
 
 - title: How Local Governments Avoid Floodplain Development through Consistent Implementation of Routine Municipal Ordinances, Plans, and Programs
-  authors: Siders, A. R. and Niemann-Morris, Jennifer and Hino, Miyuki and Shields, Elizabeth and Cano Pecharroman, Lidia and Doeffinger, Tess and Gerber-Chavez, Logan and Huang, Ju-Ching and Lafferty, Alexandra and Tamima, Salvesila
+  authors: A. R. Siders,  Jennifer Niemann-Morris,  <b>Miyuki Hino</b>,  Elizabeth Shields,  Lidia Cano Pecharroman,  Tess Doeffinger,  Logan Gerber-Chavez,   Ju-Ching Huang, Alexandra Lafferty,  Salvesila Tamima
   date: 2024-12-00
   subtitle: Oxford Open Climate Change
   # shortjournal: Oxf. Open Clim. Change
@@ -493,7 +502,7 @@
 
 - title: "Coastal Squeeze Reduces Nitrogen Removal Services Provided by Wetlands: Insights from an Interdisciplinary Framework"
   shorttitle: Coastal Squeeze Reduces Nitrogen Removal Services Provided by Wetlands
-  authors: Smiley, Anne Margaret H. and Grimley, Lauren E. and Garcia, Helena M. and Sebastian, Antonia and Berke, Philip R. and Hino, Miyuki and Piehler, Michael F.
+  authors: Anne Margaret H. Smiley,  Lauren E. Grimley,  <b>Helena M. Garcia</b>,  Antonia Sebastian,  Philip R. Berke,  <b>Miyuki Hino</b> ,  Michael F. Piehler
   date: 2025-12-00
   subtitle: Environmental Research Letters
   # shortjournal: Environ. Res. Lett.
@@ -507,7 +516,7 @@
 
 
 - title: Wind and Rain Compound with Tides to Cause Frequent and Unexpected Coastal Floods
-  authors: Thelen, Thomas and Anarde, Katherine and Dietrich, Joel Casey and Hino, Miyuki
+  authors: Thomas Thelen,  Katherine Anarde,  Joel Casey Dietrich,  <b>Miyuki Hino</b>
   date: 2024-12-00
   subtitle: Water Research
   # shortjournal: Water Res.
@@ -521,8 +530,8 @@
 
 
 - title: Weatherization Reduces Needs for Energy Bill Assistance
-  authors: Turek-Hankins, Lynée L. and Schueler, Vince and Hino, Miyuki and Mach, Katharine J.
-  date: 2026-12-00
+  authors: Lynée L. Turek-Hankins,  Vince Schueler,  <b>Miyuki Hino</b>,  Katharine J. Mach
+  date: 2026-01-01
   subtitle: Energy Policy
   # volume: 208
   # pages: 114911
