@@ -32,7 +32,7 @@ listing:
   sort: "lastname asc"
   template: people.ejs.md
   contents: 
-    - people/undergrad-students
+    - people/undergrad-student.yml
 
 - id: affiliates
   sort:
@@ -96,10 +96,10 @@ filters: [remove-stray-divfence.lua]
 :::{#grad-student}
 :::
 
-<!-- ## Undergraduate Students
+## Undergraduate Students
 
 :::{#undergrad-student}
-::: -->
+:::
 
 ## Affiliates
 

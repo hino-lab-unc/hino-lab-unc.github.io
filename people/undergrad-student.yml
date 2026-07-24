@@ -1,10 +1,8 @@
-    - path: https://drganghe.github.io/quarto-academic-website-template
-      image: "/files/profiles/profile5.JPG"
-      title: "Student C"
-      lastname: "C"
-#      author: 
+    - title: "Diya Kayaleh"
+      lastname: "Kayaleh"
+      image: "/files/profiles/kayaleh.jpeg"
       subtitle: "Undergraduate Student"
-#      date: "2024-03-12"
       categories: [Undergraduate Student] 
-      started: "2024"
-      ended: "2025"
+      projects: [Migration]
+      started: "2026"
+      ended: "2026"
