@@ -5,7 +5,7 @@ description-meta: "New publications from the Hino Lab at UNC."
 draft-mode: unlinked
 page-navigation: false
 title-block-banner: false
-date-format: "YYYY"
+date-format: "M/YYYY"
 listing: 
   - id: pubs
     sort: "date desc"
