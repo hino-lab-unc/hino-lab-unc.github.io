@@ -198,9 +198,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-lastname','listing-image','listing-subtitle','listing-categories','listing-projects','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-lastname","listing-image","listing-subtitle","listing-categories","listing-projects","listing-started","listing-ended"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -700,10 +700,59 @@ window.Quarto = {
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<!-- ## Undergraduate Students
+</section>
+<section id="undergraduate-students" class="level2">
+<h2 class="anchored" data-anchor-id="undergraduate-students">Undergraduate Students</h2>
+<div id="listing-undergrad-student" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-listing-people list">
 
-:::{#undergrad-student}
-::: -->
+  <div class="quarto-post image-left">
+    <div class="thumbnail">
+      <img loading="lazy" src="./files/profiles/kayaleh.jpeg" class="thumbnail-image" style="height: 400px;">
+      
+    </div>
+    <div class="body">
+      <h3 class="listing-title anchored">Diya Kayaleh</h3>
+    
+      <div class="listing-subtitle">
+        Undergraduate Student
+      </div>
+
+      <div class="listing-description">
+        
+      </div>
+    </div>
+    <div class="metadata">
+      <div class="body">
+        <h3 class="listing-title anchored">&nbsp;</h3>
+        <div class="listing-subtitle">&nbsp;</div>
+        <div class="listing-description">
+          <ul>
+            
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+        
+        <div class="listing-description">
+          <ul>
+            <li><b>Projects</b></li>
+            
+              <li><a href="./projects.html#migration"> Migration</a></li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="affiliates" class="level2">
 <h2 class="anchored" data-anchor-id="affiliates">Affiliates</h2>
@@ -809,11 +858,6 @@ Dr.&nbsp;Jihoon Jung
 </section>
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-postdoc">
-<div class="quarto-listing-people list">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><div class="quarto-listing quarto-listing-container-custom" id="listing-undergrad-student">
 <div class="quarto-listing-people list">
 
 </div>
