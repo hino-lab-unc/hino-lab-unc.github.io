@@ -1,6 +1,6 @@
     - path: https://www.linkedin.com/in/julian-plough-b3010284/
       image: "/files/profiles/plough.jpg"
-      title: "Dr. Julian Plough"
+      title: "Julian Plough, PhD"
       lastname: "Plough"
       subtitle: |
         Independent
@@ -12,7 +12,7 @@
 
     - path: https://climategeobest.wordpress.com/
       image: "/files/profiles/jung.png"
-      title: "Dr. Jihoon Jung"
+      title: "Jihoon Jung, PhD"
       lastname: "Jung"
       subtitle: |
         Assistant Professsor, <br>
@@ -26,7 +26,7 @@
 
     - path: https://helenamgarcia.com/
       image: "/files/profiles/garcia.jpg"
-      title: "Dr. Helena Garcia"
+      title: "Helena Garcia, PhD"
       lastname: "Garcia"
       subtitle: |
         Postdoc, <br>
