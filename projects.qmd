@@ -157,13 +157,13 @@ The tidal cycle now takes place on higher average sea levels, resulting in “su
 
 ::: {.columns}
 
-::: {.column width='40%'}
+::: {.column .proj-col-team}
 ### Team members
 :::{#people-suds}
 :::
 :::
 
-::: {.column width='60%'}
+::: {.column .proj-col-pubs}
 ### Recent Research
 :::{#pubs-suds}
 :::
@@ -195,13 +195,13 @@ We strive to support all Carolina communities that are exposed to extreme weathe
 
 ::: {.columns}
 
-::: {.column width='40%'}
+::: {.column .proj-col-team}
 ### Team members
 :::{#people-risa}
 :::
 :::
 
-::: {.column width='60%'}
+::: {.column .proj-col-pubs}
 ### Recent Research
 :::{#pubs-risa}
 :::
@@ -218,13 +218,13 @@ Who's moving towards and away from coastal hazards?
 
 ::: {.columns}
 
-::: {.column width='40%'}
+::: {.column .proj-col-team}
 ### Team members
 :::{#people-migr}
 :::
 :::
 
-::: {.column width='60%'}
+::: {.column .proj-col-pubs}
 ### Recent Research
 :::{#pubs-migr}
 :::
@@ -240,13 +240,13 @@ Who's moving towards and away from coastal hazards?
 
 ::: {.columns}
 
-::: {.column width='40%'}
+::: {.column .proj-col-team}
 ### Team members
 :::{#people-insu}
 :::
 :::
 
-::: {.column width='60%'}
+::: {.column .proj-col-pubs}
 ### Recent Research
 :::{#pubs-insu}
 :::
