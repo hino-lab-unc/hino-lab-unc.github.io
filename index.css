@@ -2,6 +2,8 @@ body {
     background-image: url('files/images/bg.jpeg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+        overscroll-behavior: none;
 }
 
 .content, .card, .navbar a, 
