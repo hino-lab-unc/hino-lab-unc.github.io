@@ -49,6 +49,7 @@
       image: 
       lastname: "Peebles"
       subtitle: "PhD Student"
+      categories: [PhD Student]
       description: |
         Wesley is a first-year PhD student at UNC Chapel Hill’s Environment, Ecology & Energy Program (E3P).
     
