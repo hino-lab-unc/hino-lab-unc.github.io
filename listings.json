@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/260731-collins-rss/index.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": []
   },
@@ -12,15 +22,5 @@
   {
     "listing": "/publications.html",
     "items": []
-  },
-  {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/news/260731-collins-rss/index.html"
-    ]
   }
 ]
