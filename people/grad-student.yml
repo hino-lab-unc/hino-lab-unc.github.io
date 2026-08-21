@@ -44,6 +44,15 @@
       started: "2024"
       ended: "2029"
 
+    - title: "Wesley Peebles"
+      linkedin: https://www.linkedin.com/in/wesley-peebles-6b375b179/
+      image: 
+      lastname: "Peebles"
+      subtitle: "PhD Student"
+      categories: [PhD Student]
+      description: |
+        Wesley is a first-year PhD student at UNC Chapel Hill’s Environment, Ecology & Energy Program (E3P).
+    
     - title: "Tessa Fridell"
       linkedin: https://www.linkedin.com/in/tessa-fridell-a6116022a/
       github: https://github.com/tessafri
