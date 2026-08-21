@@ -37,9 +37,10 @@
         .proj-col-team {
             width: 100% !important;
         }
+    
     .quarto-listing-people .quarto-post .thumbnail {
         order: 1;
-        width: 400px;
+        max-width: 400px;
     }
 
     .quarto-listing-people .quarto-post .metadata h3, .quarto-listing-people .quarto-post .metadata .listing-subtitle {
