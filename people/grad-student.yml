@@ -44,4 +44,15 @@
       started: "2024"
       ended: "2029"
 
+    - title: "Tessa Fridell"
+      linkedin: https://www.linkedin.com/in/tessa-fridell-a6116022a/
+      github: https://github.com/tessafri
+      image: 
+      lastname: "Fridell"
+      subtitle: "PhD Student"
+      description: |
+        Tessa is a first-year PhD student in UNC Chapel Hill’s Environment, Ecology, and Energy (E3P) Program. She has a broad research interest in the impacts of chronic hazards, such as urban heat and chronic flooding, on disadvantaged communities.
+      categories: [PhD Student]
+      started: "2026"
+      ended: "2031"
 # Wesley and Tessa can add info here
