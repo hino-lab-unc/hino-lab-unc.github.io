@@ -25,10 +25,22 @@
     display: none;
 }
 
+.proj-col-pubs {
+    width: 60% !important;
+}
+
+.proj-col-team {
+    width: 40% !important;
+}
 @media (max-width: 767.98px) {
+    .proj-col-pubs,
+        .proj-col-team {
+            width: 100% !important;
+        }
+    
     .quarto-listing-people .quarto-post .thumbnail {
         order: 1;
-        width: 400px;
+        max-width: 400px;
     }
 
     .quarto-listing-people .quarto-post .metadata h3, .quarto-listing-people .quarto-post .metadata .listing-subtitle {
